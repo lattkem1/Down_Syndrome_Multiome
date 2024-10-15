@@ -1,0 +1,6 @@
+sample,sample_name,donor_short,sample_type,dataset_folder,group,dev_PCW,sex,disease,batch_seq,tissue_quality,RNase_inh,cell_line,protocol,weeks_post_injection
+G24C1A,120,G24C1A,graft,/rds/general/user/mlattke/projects/dsseq23/live/E10_240711_multiome_batch_P04E27_E29_P03E07_E09_mapping_corrected_labels/,CON,,female,CON,P03E08,,RiboLock,C9,Nizetic,24
+G24C2B,113,G24C2B,graft,/rds/general/user/mlattke/projects/dsseq23/live/E10_240711_multiome_batch_P04E27_E29_P03E07_E09_mapping_corrected_labels/,CON,,female,CON,P03E08,,RiboLock,C9,Nizetic,24
+G24C3H,115,G24C3H,graft,/rds/general/user/mlattke/projects/dsseq23/live/E10_240711_multiome_batch_P04E27_E29_P03E07_E09_mapping_corrected_labels/,CON,,female,CON,P03E09,,RiboLock,C9,Nizetic,24
+G24D1C,114,G24D1C,graft,/rds/general/user/mlattke/projects/dsseq23/live/E10_240711_multiome_batch_P04E27_E29_P03E07_E09_mapping_corrected_labels/,DS,,female,DS,P03E08,,RiboLock,C13,Nizetic,24
+G24D2G,117_119,G24D2G,graft,/rds/general/user/mlattke/projects/dsseq23/live/E10_240711_multiome_batch_P04E27_E29_P03E07_E09_mapping_corrected_labels/,DS,,female,DS,P03E09,,RiboLock,C13,Nizetic,24
