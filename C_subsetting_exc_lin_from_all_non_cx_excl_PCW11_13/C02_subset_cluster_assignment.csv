@@ -1,0 +1,11 @@
+cluster,cluster_name,cell_type,cell_class
+9,AST_s9,AST,AST
+0,RG_s0,RG,RG
+8,RG_s8,RG,RG
+7,RG_prol_s7,RG_prol,RG
+5,IPC_prol_s5,IPC_prol,IPC
+4,IPC_s4,IPC,IPC
+1,NEU_CUX2_s1,NEU_CUX2,NEU_exc
+2,NEU_CUX2_s2,NEU_CUX2,NEU_exc
+6,NEU_RORB_s6,NEU_RORB,NEU_exc
+3,NEU_TLE4_s3,NEU_TLE4,NEU_exc

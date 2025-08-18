@@ -1,0 +1,1582 @@
+Package,LibPath,Version,Priority,Depends,Imports,LinkingTo,Suggests,Enhances,License,License_is_FOSS,License_restricts_use,OS_type,MD5sum,NeedsCompilation,Built
+abind,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4-8,NA,R (>= 1.5.0),"methods, utils",NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ALL,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.44.0,NA,"R (>= 2.10), Biobase (>= 2.5.5)",NA,NA,rpart,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+annotate,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.80.0,NA,"R (>= 2.10), AnnotationDbi (>= 1.27.5), XML","Biobase, DBI, xtable, graphics, utils, stats, methods,
+BiocGenerics (>= 0.13.8), httr",NA,"hgu95av2.db, genefilter, Biostrings (>= 2.25.10), IRanges,
+rae230a.db, rae230aprobe, tkWidgets, GO.db, org.Hs.eg.db,
+org.Mm.eg.db, humanCHRLOC, Rgraphviz, RUnit,",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.2
+AnnotationDbi,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.64.1,NA,"R (>= 2.7.0), methods, stats4, BiocGenerics (>= 0.29.2),
+Biobase (>= 1.17.0), IRanges","DBI, RSQLite, S4Vectors (>= 0.9.25), stats, KEGGREST",NA,"utils, hgu95av2.db, GO.db, org.Sc.sgd.db, org.At.tair.db,
+RUnit, TxDb.Hsapiens.UCSC.hg19.knownGene, org.Hs.eg.db,
+reactome.db, AnnotationForge, graph, EnsDb.Hsapiens.v75,
+BiocStyle, knitr",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.2
+AnnotationFilter,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.26.0,NA,R (>= 3.4.0),"utils, methods, GenomicRanges, lazyeval",NA,"BiocStyle, knitr, testthat, RSQLite, org.Hs.eg.db, rmarkdown",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+AnnotationHub,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.10.1,NA,"BiocGenerics (>= 0.15.10), BiocFileCache (>= 1.5.1)","utils, methods, grDevices, RSQLite, BiocManager, BiocVersion,
+curl, rappdirs, AnnotationDbi (>= 1.31.19), S4Vectors, httr,
+yaml, dplyr, interactiveDisplayBase",NA,"IRanges, GenomicRanges, GenomeInfoDb, VariantAnnotation,
+Rsamtools, rtracklayer, BiocStyle, knitr, AnnotationForge,
+rBiopaxParser, RUnit, GenomicFeatures, MSnbase, mzR,
+Biostrings, CompoundDb, keras, ensembldb, SummarizedExperiment,
+ExperimentHub, gdsfmt, rmarkdown, HubPub",AnnotationHubData,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+aod,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.3,NA,"R (>= 2.10), methods, stats",NA,NA,"MASS, boot, lme4",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+ape,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,5.8-1,NA,R (>= 3.2.0),"nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp
+(>= 0.12.0), digest",Rcpp,"gee, expm, igraph, phangorn, xml2",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+aplot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.5,NA,R (>= 4.1.0),"ggfun (>= 0.1.3), ggplot2, ggplotify, patchwork, magrittr,
+methods, utils, yulab.utils (>= 0.1.9)",NA,ggtree,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+ArchR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.2,NA,,"ggplot2, SummarizedExperiment, data.table, Matrix, rhdf5,
+magrittr, S4Vectors (>= 0.9.25), BiocGenerics, Rcpp (>=
+0.12.16), matrixStats, plyr, nabor, motifmatchr, chromVAR,
+uwot, ggrepel, Rsamtools, gtable, gtools, stringr, grid,
+gridExtra, Biostrings, ComplexHeatmap, GenomicRanges",Rcpp,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+ashr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.2-63,NA,R (>= 3.1.0),"Matrix, stats, graphics, Rcpp (>= 0.10.5), truncnorm, mixsqp,
+SQUAREM, etrunct, invgamma",Rcpp,"testthat, knitr, rmarkdown, ggplot2, REBayes",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+askpass,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.1,NA,NA,sys (>= 2.1),NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+assertthat,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.1,NA,NA,tools,NA,"testthat, covr",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+babelgene,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,22.9,NA,R (>= 3.4),"dplyr, methods, rlang",NA,"covr, knitr, rmarkdown, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+backports,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.0,NA,R (>= 3.0.0),NA,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+base,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,NA,NA,methods,NA,Part of R 4.3.3,NA,NA,NA,NA,NA,4.3.3
+base64enc,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1-3,NA,R (>= 2.9.0),NA,NA,NA,png,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+batchelor,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.19.1,NA,SingleCellExperiment,"SummarizedExperiment, S4Vectors, BiocGenerics, Rcpp, stats,
+methods, utils, igraph, BiocNeighbors, BiocSingular, Matrix,
+DelayedArray, DelayedMatrixStats, BiocParallel, scuttle,
+ResidualMatrix, ScaledMatrix, beachmat",Rcpp,"testthat, BiocStyle, knitr, rmarkdown, scran, scater,
+bluster, scRNAseq",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+bayestestR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.15.3,NA,R (>= 3.6),"insight (>= 1.1.0), datawizard (>= 1.0.2), graphics, methods,
+stats, utils",NA,"BayesFactor (>= 0.9.12-4.4), bayesQR, bayesplot, betareg, BH,
+blavaan, bridgesampling, brms, collapse, curl, effectsize,
+emmeans, gamm4, ggdist, ggplot2, glmmTMB, httr2, KernSmooth,
+knitr, lavaan, lme4, logspline (>= 2.1.21), marginaleffects (>=
+0.25.0), MASS, mclust, mediation, modelbased, ordbetareg,
+parameters, patchwork, performance, posterior, quadprog,
+RcppEigen, rmarkdown, rstan, rstanarm, see (>= 0.8.5),
+testthat, tweedie, withr",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+beachmat,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.18.1,NA,NA,"methods, DelayedArray (>= 0.27.2), SparseArray, BiocGenerics,
+Matrix, Rcpp",Rcpp,"testthat, BiocStyle, knitr, rmarkdown, rcmdcheck,
+BiocParallel, HDF5Array",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+beeswarm,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.0,NA,NA,"stats, graphics, grDevices, utils",NA,NA,NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+BH,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.87.0-1,NA,NA,NA,NA,NA,NA,BSL-1.0,NA,NA,NA,NA,no,4.3.3
+binom,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1-1.1,NA,NA,NA,NA,"lattice, polynom, tcltk, ggplot2",NA,GPL,NA,NA,NA,NA,yes,4.3.3
+Biobase,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.62.0,NA,"R (>= 2.10), BiocGenerics (>= 0.27.1), utils",methods,NA,"tools, tkWidgets, ALL, RUnit, golubEsets, BiocStyle, knitr",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.2
+BiocFileCache,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.10.2,NA,"R (>= 3.4.0), dbplyr (>= 1.0.0)","methods, stats, utils, dplyr, RSQLite, DBI, filelock, curl,
+httr",NA,"testthat, knitr, BiocStyle, rmarkdown, rtracklayer",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+BiocGenerics,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.48.1,NA,"R (>= 4.0.0), methods, utils, graphics, stats","methods, utils, graphics, stats",NA,"Biobase, S4Vectors, IRanges, GenomicRanges, DelayedArray,
+Biostrings, Rsamtools, AnnotationDbi, affy, affyPLM, DESeq2,
+flowClust, MSnbase, annotate, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.2
+BiocIO,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.12.0,NA,R (>= 4.3.0),"BiocGenerics, S4Vectors, methods, tools",NA,"testthat, knitr, rmarkdown, BiocStyle",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.2
+BiocManager,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.30.25,NA,NA,utils,NA,"BiocVersion, BiocStyle, remotes, rmarkdown, testthat, withr,
+curl, knitr",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+BiocNeighbors,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.20.2,NA,NA,"Rcpp, S4Vectors, BiocParallel, stats, methods, Matrix","Rcpp, RcppHNSW","testthat, BiocStyle, knitr, rmarkdown, FNN, RcppAnnoy,
+RcppHNSW",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+BiocParallel,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.36.0,NA,"methods, R (>= 3.5.0)","stats, utils, futile.logger, parallel, snow, codetools","BH, cpp11","BiocGenerics, tools, foreach, BBmisc, doParallel,
+GenomicRanges, RNAseqData.HNRNPC.bam.chr14,
+TxDb.Hsapiens.UCSC.hg19.knownGene, VariantAnnotation,
+Rsamtools, GenomicAlignments, ShortRead, RUnit, BiocStyle,
+knitr, batchtools, data.table",Rmpi,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.2
+BiocSingular,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.18.0,NA,NA,"BiocGenerics, S4Vectors, Matrix, methods, utils, DelayedArray,
+BiocParallel, ScaledMatrix, irlba, rsvd, Rcpp, beachmat","Rcpp, beachmat","testthat, BiocStyle, knitr, rmarkdown, ResidualMatrix",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+BiocVersion,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.18.1,NA,R (>= 4.3.0),NA,NA,NA,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+biomaRt,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.58.2,NA,methods,"utils, XML (>= 3.99-0.7), AnnotationDbi, progress, stringr,
+httr, digest, BiocFileCache, rappdirs, xml2",NA,"BiocStyle, knitr, mockery, rmarkdown, testthat, webmockr",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+Biostrings,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.70.3,NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.31.2), XVector (>= 0.37.1),
+GenomeInfoDb","methods, utils, grDevices, graphics, stats, crayon","S4Vectors, IRanges, XVector","BSgenome (>= 1.13.14), BSgenome.Celegans.UCSC.ce2 (>=
+1.3.11), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.11),
+BSgenome.Hsapiens.UCSC.hg18, drosophila2probe, hgu95av2probe,
+hgu133aprobe, GenomicFeatures (>= 1.3.14), hgu95av2cdf, affy
+(>= 1.41.3), affydata (>= 1.11.5), RUnit, BiocStyle, knitr",Rmpi,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+biovizBase,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.50.0,NA,"R (>= 3.5.0), methods","grDevices, stats, scales, Hmisc, RColorBrewer, dichromat,
+BiocGenerics, S4Vectors (>= 0.23.19), IRanges (>= 1.99.28),
+GenomeInfoDb (>= 1.5.14), GenomicRanges (>= 1.23.21),
+SummarizedExperiment, Biostrings (>= 2.33.11), Rsamtools (>=
+1.17.28), GenomicAlignments (>= 1.1.16), GenomicFeatures (>=
+1.21.19), AnnotationDbi, VariantAnnotation (>= 1.11.4),
+ensembldb (>= 1.99.13), AnnotationFilter (>= 0.99.8), rlang",NA,"BSgenome.Hsapiens.UCSC.hg19,
+TxDb.Hsapiens.UCSC.hg19.knownGene, BSgenome, rtracklayer,
+EnsDb.Hsapiens.v75, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+bit,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.6.0,NA,R (>= 3.4.0),NA,NA,"testthat (>= 3.0.0), roxygen2, knitr, markdown, rmarkdown,
+microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+bit64,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.6.0-1,NA,"R (>= 3.4.0), bit (>= 4.0.0)","graphics, methods, stats, utils",NA,"testthat (>= 3.0.3), withr",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+bitops,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0-9,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+blob,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.4,NA,NA,"methods, rlang, vctrs (>= 0.2.1)",NA,"covr, crayon, pillar (>= 1.2.1), testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.1
+bluster,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.12.0,NA,NA,"stats, methods, utils, cluster, Matrix, Rcpp, igraph,
+S4Vectors, BiocParallel, BiocNeighbors",Rcpp,"knitr, rmarkdown, testthat, BiocStyle, dynamicTreeCut,
+scRNAseq, scuttle, scater, scran, pheatmap, viridis, mbkmeans,
+kohonen, apcluster, DirichletMultinomial, vegan, fastcluster",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+boot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3-31,recommended,"R (>= 3.0.0), graphics, stats",NA,NA,"MASS, survival",NA,Unlimited,NA,NA,NA,NA,no,4.3.3
+BPCells,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.0,NA,R (>= 3.5.0),"methods, grDevices, magrittr, Matrix, Rcpp, rlang, vctrs,
+stringr, tibble, dplyr, tidyr, ggplot2, scales, patchwork,
+scattermore, ggrepel, RColorBrewer, hexbin","Rcpp, RcppEigen","IRanges, GenomicRanges, matrixStats",NA,MIT,NA,NA,NA,NA,yes,4.3.3
+brew,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0-10,NA,NA,NA,NA,testthat (>= 3.0.0),NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+brio,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.5,NA,R (>= 3.6),NA,NA,"covr, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+broom,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.8,NA,R (>= 3.5),"backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue,
+lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0),
+tidyr (>= 1.0.0)",NA,"AER, AUC, bbmle, betareg (>= 3.2-1), biglm, binGroup, boot,
+btergm (>= 1.10.6), car (>= 3.1-2), carData, caret, cluster,
+cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>=
+3.10.4), fixest (>= 0.9.0), gam (>= 1.15), gee, geepack,
+ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp,
+joineRML, Kendall, knitr, ks, Lahman, lavaan (>= 0.6.18),
+leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx,
+mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz,
+multcomp, network, nnet, ordinal, plm, poLCA, psych, quantreg,
+rmarkdown, robust, robustbase, rsample, sandwich, spdep (>=
+1.1), spatialreg, speedglm, spelling, survey, survival (>=
+3.6-4), systemfit, testthat (>= 3.0.0), tseries, vars, zoo",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+BSgenome,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.70.2,NA,"R (>= 2.8.0), methods, BiocGenerics (>= 0.13.8), S4Vectors (>=
+0.17.28), IRanges (>= 2.13.16), GenomeInfoDb (>= 1.25.6),
+GenomicRanges (>= 1.31.10), Biostrings (>= 2.47.6), BiocIO,
+rtracklayer (>= 1.39.7)","utils, stats, matrixStats, XVector, Rsamtools",NA,"BiocManager, Biobase, BSgenome.Celegans.UCSC.ce2,
+BSgenome.Hsapiens.UCSC.hg38,
+BSgenome.Hsapiens.UCSC.hg38.masked,
+BSgenome.Mmusculus.UCSC.mm10, BSgenome.Rnorvegicus.UCSC.rn5,
+BSgenome.Scerevisiae.UCSC.sacCer1,
+BSgenome.Hsapiens.NCBI.GRCh38,
+TxDb.Hsapiens.UCSC.hg38.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene,
+SNPlocs.Hsapiens.dbSNP144.GRCh38,
+XtraSNPlocs.Hsapiens.dbSNP144.GRCh38, hgu95av2probe, RUnit,
+BSgenomeForge",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+BSgenome.Hsapiens.UCSC.hg38,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.5,NA,"R (>= 4.2.0), GenomeInfoDb (>= 1.34.9), BSgenome (>= 1.66.2)",NA,NA,NA,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+bslib,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.9.0,NA,R (>= 2.10),"base64enc, cachem, fastmap (>= 1.1.1), grDevices, htmltools
+(>= 0.5.8), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise
+(>= 2.0.1), mime, rlang, sass (>= 0.4.9)",NA,"bsicons, curl, fontawesome, future, ggplot2, knitr, magrittr,
+rappdirs, rmarkdown (>= 2.7), shiny (> 1.8.1), testthat,
+thematic, tools, utils, withr, yaml",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+BuenColors,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.6,NA,"MASS, ggplot2, grDevices, graphics, R (>= 3.0)",NA,NA,knitr,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+cachem,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.0,NA,NA,"rlang, fastmap (>= 1.2.0)",NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+cacoa,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.0,NA,"R (>= 3.5.0), Matrix","ape, candisc, cowplot, dplyr, ggplot2, ggrepel, grDevices,
+igraph, ks, magrittr, MASS, matrixTests, methods, plyr, R6,
+reshape2, rlang, sccore (>= 1.0.0), tibble, tidyr, tidytree","Rcpp, RcppArmadillo, RcppEigen, RcppProgress, sccore","abind, BiocParallel, cluster, clusterProfiler (>= 3.0.0),
+coda.base, conos, DESeq2, DOSE, e1071, edgeR, EnhancedVolcano,
+enrichplot, entropy, fabia, ggdendro, ggrastr (>= 0.1.7),
+ggtree, GOfuncR, graph, irlba, jsonlite, leidenAlg, limma,
+matrixStats (>= 0.60.1), N2R, pagoda2, psych, purrr, quadprog,
+RColorBrewer, Rgraphviz, Rtsne, scales, scran, Seurat,
+SummarizedExperiment, testthat (>= 3.1.0), viridis",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+Cairo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6-2,NA,R (>= 2.4.0),"grDevices, graphics",NA,png,FastRWeb,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+callr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.7.6,NA,R (>= 3.4),"processx (>= 3.6.1), R6, utils",NA,"asciicast (>= 2.3.1), cli (>= 1.1.0), mockery, ps, rprojroot,
+spelling, testthat (>= 3.2.0), withr (>= 2.3.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+candisc,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.9.0,NA,"R (>= 3.5.0), heplots (>= 0.8-6)","car, graphics, stats",NA,"rgl, carData, corrplot, knitr, rmarkdown, MASS, rpart,
+rpart.plot",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+car,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1-3,NA,"R (>= 3.5.0), carData (>= 3.0-0)","abind, Formula, MASS, mgcv, nnet, pbkrtest (>= 0.4-4),
+quantreg, grDevices, utils, stats, graphics, lme4 (>=
+1.1-27.1), nlme, scales",NA,"alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
+MatrixModels, ordinal, plotrix, mvtnorm, rgl (>= 0.111.3), rio,
+sandwich, SparseM, survival, survey",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+carData,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.0-5,NA,R (>= 3.5.0),NA,NA,car (>= 3.0-0),NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+caTools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.18.3,NA,R (>= 3.6.0),bitops,NA,"MASS, rpart",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+celda,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.18.2,NA,"R (>= 4.0), SingleCellExperiment, Matrix","plyr, foreach, ggplot2, RColorBrewer, grid, scales, gtable,
+grDevices, graphics, matrixStats, doParallel, digest, methods,
+reshape2, S4Vectors, data.table, Rcpp, RcppEigen, uwot,
+enrichR, SummarizedExperiment, MCMCprecision, ggrepel, Rtsne,
+withr, scater (>= 1.14.4), scran, dbscan, DelayedArray,
+stringr, ComplexHeatmap, gridExtra, circlize","Rcpp, RcppEigen","testthat, knitr, roxygen2, rmarkdown, biomaRt, covr,
+BiocManager, BiocStyle, TENxPBMCData, singleCellTK,
+M3DExampleData",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+cellranger,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.0,NA,R (>= 3.0.0),"rematch, tibble",NA,"covr, testthat (>= 1.0.0), knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+checkmate,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3.2,NA,R (>= 3.0.0),"backports (>= 1.1.0), utils",NA,"R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+3.0.4), tinytest (>= 1.1.0), tibble",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+chromVAR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.24.0,NA,R (>= 3.5.0),"IRanges, GenomeInfoDb, GenomicRanges, ggplot2, nabor,
+BiocParallel, BiocGenerics, Biostrings, TFBSTools, Rsamtools,
+S4Vectors, methods, Rcpp, grid, plotly, shiny, miniUI, stats,
+utils, graphics, DT, Rtsne, Matrix, SummarizedExperiment,
+RColorBrewer, BSgenome","Rcpp, RcppArmadillo","JASPAR2016, BSgenome.Hsapiens.UCSC.hg19, readr, testthat,
+knitr, rmarkdown, pheatmap, motifmatchr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+circlize,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.16,NA,"R (>= 4.0.0), graphics","GlobalOptions (>= 0.1.2), shape, grDevices, utils, stats,
+colorspace, methods, grid",NA,"knitr, dendextend (>= 1.0.1), ComplexHeatmap (>= 2.0.0),
+gridBase, png, markdown, bezier, covr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+class,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,7.3-23,recommended,"R (>= 3.0.0), stats, utils",MASS,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+cli,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.6.5,NA,R (>= 3.4),utils,NA,"callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
+htmltools, htmlwidgets, knitr, methods, processx, ps (>=
+1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+rstudioapi, testthat (>= 3.2.0), tibble, whoami, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+clipr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.8.0,NA,NA,utils,NA,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)",NA,GPL-3,NA,NA,NA,NA,no,4.3.1
+clue,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3-66,NA,R (>= 3.2.0),"stats, cluster, graphics, methods",NA,"e1071, lpSolve (>= 5.5.7), quadprog (>= 1.4-8), relations","RWeka, ape, cba, cclust, flexclust, flexmix, kernlab, mclust,
+movMF, modeltools",GPL-2,NA,NA,NA,NA,yes,4.3.3
+cluster,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.8.1,recommended,R (>= 3.5.0),"graphics, grDevices, stats, utils",NA,"MASS, Matrix","mvoutlier, fpc, ellipse, sfsmisc",GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+clusterProfiler,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.10.1,NA,R (>= 3.5.0),"AnnotationDbi, downloader, DOSE (>= 3.23.2), dplyr, enrichplot
+(>= 1.9.3), GO.db, GOSemSim (>= 2.27.2), gson (>= 0.0.7), httr,
+igraph, magrittr, methods, plyr, qvalue, rlang, stats, tidyr,
+utils, yulab.utils (>= 0.0.7)",NA,"AnnotationHub, knitr, jsonlite, readr, rmarkdown,
+org.Hs.eg.db, prettydoc, BiocManager, testthat",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+CNEr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.38.0,NA,R (>= 3.5.0),"Biostrings (>= 2.33.4), DBI (>= 0.7), RSQLite (>= 0.11.4),
+GenomeInfoDb (>= 1.1.3), GenomicRanges (>= 1.23.16),
+rtracklayer (>= 1.25.5), XVector (>= 0.5.4), GenomicAlignments
+(>= 1.1.9), methods, S4Vectors (>= 0.13.13), IRanges (>=
+2.5.27), readr (>= 0.2.2), BiocGenerics, tools, parallel,
+reshape2 (>= 1.4.1), ggplot2 (>= 2.1.0), poweRlaw (>= 0.60.3),
+annotate (>= 1.50.0), GO.db (>= 3.3.0), R.utils (>= 2.3.0),
+KEGGREST (>= 1.14.0)","S4Vectors, IRanges, XVector","Gviz (>= 1.7.4), BiocStyle, knitr, rmarkdown, testthat,
+BSgenome.Drerio.UCSC.danRer10, BSgenome.Hsapiens.UCSC.hg38,
+TxDb.Drerio.UCSC.danRer10.refGene, BSgenome.Hsapiens.UCSC.hg19,
+BSgenome.Ggallus.UCSC.galGal3",NA,GPL-2 | file LICENSE,NA,yes,NA,NA,yes,4.3.2
+codetools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2-20,recommended,R (>= 2.1),NA,NA,NA,NA,GPL,NA,NA,NA,NA,no,4.3.3
+colorRamps,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3.4,NA,NA,NA,NA,NA,NA,GPL,NA,NA,NA,NA,no,4.3.3
+colorspace,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1-1,NA,"R (>= 3.0.0), methods","graphics, grDevices, stats",NA,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+combinat,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.0-8,NA,NA,NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,NA,4.3.3
+commonmark,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.9.5,NA,NA,NA,NA,"curl, testthat, xml2",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+compiler,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,NA,NA,NA,NA,Part of R 4.3.3,NA,NA,NA,NA,NA,4.3.3
+ComplexHeatmap,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.18.0,NA,"R (>= 3.5.0), methods, grid, graphics, stats, grDevices","circlize (>= 0.4.14), GetoptLong, colorspace, clue,
+RColorBrewer, GlobalOptions (>= 0.1.0), png, digest, IRanges,
+matrixStats, foreach, doParallel, codetools",NA,"testthat (>= 1.0.0), knitr, markdown, dendsort, jpeg, tiff,
+fastcluster, EnrichedHeatmap, dendextend (>= 1.0.1), grImport,
+grImport2, glue, GenomicRanges, gridtext, pheatmap (>= 1.0.12),
+gridGraphics, gplots, rmarkdown, Cairo, magick",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+conflicted,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.0,NA,R (>= 3.2),"cli (>= 3.4.0), memoise, rlang (>= 1.0.0)",NA,"callr, covr, dplyr, Matrix, methods, pkgload, testthat (>=
+3.0.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ConsensusClusterPlus,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.66.0,NA,NA,"Biobase, ALL, graphics, stats, utils, cluster",NA,NA,NA,GPL version 2,NA,NA,NA,NA,no,4.3.3
+corpcor,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6.10,NA,R (>= 3.0.2),stats,NA,,NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+corrplot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.95,NA,NA,NA,NA,"seriation, knitr, RColorBrewer, rmarkdown, magrittr,
+prettydoc, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+cowplot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.3,NA,R (>= 3.5.0),"ggplot2 (>= 3.4.0), grid, gtable, grDevices, methods, rlang,
+scales",NA,"Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr,
+lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg,
+testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+cpp11,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.2,NA,R (>= 4.0.0),NA,NA,"bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+testthat (>= 3.2.0), tibble, utils, vctrs, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+crayon,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.3,NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+credentials,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.2,NA,NA,"openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass",NA,"testthat, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+crosstalk,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.1,NA,NA,"htmltools (>= 0.3.6), jsonlite, lazyeval, R6",NA,"shiny, ggplot2, testthat (>= 2.1.0), sass, bslib",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+curl,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,6.2.2,NA,R (>= 3.0.0),NA,NA,"spelling, testthat (>= 1.0.0), knitr, jsonlite, later,
+rmarkdown, httpuv (>= 1.4.4), webutils",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+data.table,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.17.0,NA,R (>= 3.3.0),methods,NA,"bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>=
+1.8-1), yaml, knitr, markdown",NA,MPL-2.0 | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+datasets,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,NA,NA,NA,NA,Part of R 4.3.3,NA,NA,NA,NA,NA,4.3.3
+datawizard,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.2,NA,R (>= 4.0),"insight (>= 1.0.2), stats, utils",NA,"bayestestR, boot, brms, curl, data.table, dplyr (>= 1.1),
+effectsize, emmeans, gamm4, ggplot2 (>= 3.5.0), gt, haven,
+httr, knitr, lme4, mediation, modelbased, parameters (>=
+0.21.7), poorman (>= 0.2.7), psych, readxl, readr, rio,
+rmarkdown, rstanarm, see, testthat (>= 3.2.1), tibble, tidyr,
+withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+DBI,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.3,NA,"methods, R (>= 3.0.0)",NA,NA,"arrow, blob, covr, DBItest, dbplyr, downlit, dplyr, glue,
+hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), RMariaDB,
+rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat (>= 3.0.0),
+vctrs, xml2",NA,LGPL (>= 2.1),NA,NA,NA,NA,no,4.3.3
+dbplyr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.5.0,NA,R (>= 3.6),"blob (>= 1.2.0), cli (>= 3.6.1), DBI (>= 1.1.3), dplyr (>=
+1.1.2), glue (>= 1.6.2), lifecycle (>= 1.0.3), magrittr,
+methods, pillar (>= 1.9.0), purrr (>= 1.0.1), R6 (>= 2.2.2),
+rlang (>= 1.1.1), tibble (>= 3.2.1), tidyr (>= 1.3.0),
+tidyselect (>= 1.2.1), utils, vctrs (>= 0.6.3), withr (>=
+2.5.0)",NA,"bit64, covr, knitr, Lahman, nycflights13, odbc (>= 1.4.2),
+RMariaDB (>= 1.2.2), rmarkdown, RPostgres (>= 1.4.5),
+RPostgreSQL, RSQLite (>= 2.3.1), testthat (>= 3.1.10)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+dbscan,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.2,NA,R (>= 3.2.0),"generics, graphics, Rcpp (>= 1.0.0), stats",Rcpp,"dendextend, fpc, igraph, knitr, microbenchmark, rmarkdown,
+testthat (>= 3.0.0), tibble",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+decontX,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.0,NA,R (>= 4.3.0),"celda, dbscan, DelayedArray, ggplot2, Matrix (>= 1.5.3),
+MCMCprecision, methods, patchwork, plyr, Rcpp (>= 0.12.0),
+RcppParallel (>= 5.0.1), reshape2, rstan (>= 2.18.1),
+rstantools (>= 2.2.0), S4Vectors, scater, Seurat,
+SingleCellExperiment, SummarizedExperiment, withr","BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0),
+RcppParallel (>= 5.0.1), rstan (>= 2.18.1), StanHeaders (>=
+2.18.0)","BiocStyle, dplyr, knitr, rmarkdown, scran,
+SingleCellMultiModal, TENxPBMCData, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+DEGreport,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.38.5,NA,R (>= 4.0.0),"utils, methods, Biobase, BiocGenerics, broom, circlize,
+ComplexHeatmap, cowplot, ConsensusClusterPlus, cluster,
+dendextend, DESeq2, dplyr, edgeR, ggplot2, ggdendro, grid,
+ggrepel, grDevices, knitr, logging, magrittr, psych,
+RColorBrewer, reshape, rlang, scales, stats, stringr, stringi,
+S4Vectors, SummarizedExperiment, tidyr, tibble",NA,"BiocStyle, AnnotationDbi, limma, pheatmap, rmarkdown,
+statmod, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+DelayedArray,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.28.0,NA,"R (>= 4.0.0), methods, stats4, Matrix, BiocGenerics (>=
+0.43.4), MatrixGenerics (>= 1.1.3), S4Vectors (>= 0.27.2),
+IRanges (>= 2.17.3), S4Arrays (>= 1.1.1), SparseArray (>=
+1.1.10)",stats,S4Vectors,"BiocParallel, HDF5Array (>= 1.17.12), genefilter,
+SummarizedExperiment, airway, lobstr, DelayedMatrixStats,
+knitr, rmarkdown, BiocStyle, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.2
+DelayedMatrixStats,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.24.0,NA,"MatrixGenerics (>= 1.13.1), DelayedArray (>= 0.27.10)","methods, sparseMatrixStats (>= 1.13.2), Matrix (>= 1.5-0),
+S4Vectors (>= 0.17.5), IRanges (>= 2.25.10)",NA,"testthat, knitr, rmarkdown, BiocStyle, microbenchmark,
+profmem, HDF5Array, matrixStats (>= 1.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.2
+deldir,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0-4,NA,R (>= 3.5.0),"graphics, grDevices",NA,polyclip,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+dendextend,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.19.0,NA,R (>= 3.0.0),"utils, stats, datasets, magrittr (>= 1.0.1), ggplot2, viridis",NA,"knitr, rmarkdown, testthat, seriation, colorspace, ape,
+microbenchmark, gplots, heatmaply, dynamicTreeCut, pvclust,
+corrplot, DendSer, MASS, cluster, fpc, circlize (>= 0.2.5),
+covr","ggdendro, dendroextras, Hmisc, data.table, rpart, WGCNA,
+moduleColor, distory, phangorn, zoo",GPL-2 | GPL-3,NA,NA,NA,NA,no,4.3.3
+DEoptimR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1-3-1,NA,NA,stats,NA,NA,robustbase,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+Deriv,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.1.6,NA,NA,methods,NA,testthat (>= 0.11.0),NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+desc,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.3,NA,R (>= 3.4),"cli, R6, utils",NA,"callr, covr, gh, spelling, testthat, whoami, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+DESeq2,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.42.1,NA,"S4Vectors (>= 0.23.18), IRanges, GenomicRanges,
+SummarizedExperiment (>= 1.1.6)","BiocGenerics (>= 0.7.5), Biobase, BiocParallel, matrixStats,
+methods, stats4, locfit, ggplot2 (>= 3.4.0), Rcpp (>= 0.11.0),
+MatrixGenerics","Rcpp, RcppArmadillo","testthat, knitr, rmarkdown, vsn, pheatmap, RColorBrewer,
+apeglm, ashr, tximport, tximeta, tximportData, readr, pbapply,
+airway, pasilla (>= 0.2.10), glmGamPoi, BiocManager",NA,LGPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+destiny,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.16.0,NA,R (>= 3.4.0),"methods, graphics, grDevices, grid, utils, stats, Matrix, Rcpp
+(>= 0.10.3), RcppEigen, RSpectra (>= 0.14-0), irlba,
+pcaMethods, Biobase, BiocGenerics, SummarizedExperiment,
+SingleCellExperiment, ggplot2, ggplot.multistats, tidyr,
+tidyselect, ggthemes, VIM, knn.covertree, proxy, RcppHNSW,
+smoother, scales, scatterplot3d","Rcpp, RcppEigen, grDevices","knitr, rmarkdown, igraph, testthat, FNN, tidyverse,
+gridExtra, cowplot, conflicted, viridis, rgl, scRNAseq,
+org.Mm.eg.db, scran, repr","rgl, SingleCellExperiment",GPL-3,NA,NA,NA,NA,yes,4.3.3
+devtools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.4.5,NA,"R (>= 3.0.2), usethis (>= 2.1.6)","cli (>= 3.3.0), desc (>= 1.4.1), ellipsis (>= 0.3.2), fs (>=
+1.5.2), lifecycle (>= 1.0.1), memoise (>= 2.0.1), miniUI (>=
+0.1.1.1), pkgbuild (>= 1.3.1), pkgdown (>= 2.0.6), pkgload (>=
+1.3.0), profvis (>= 0.3.7), rcmdcheck (>= 1.4.0), remotes (>=
+2.4.2), rlang (>= 1.0.4), roxygen2 (>= 7.2.1), rversions (>=
+2.1.1), sessioninfo (>= 1.2.2), stats, testthat (>= 3.1.5),
+tools, urlchecker (>= 1.0.1), utils, withr (>= 2.5.0)",NA,"BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1),
+curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>=
+1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3),
+knitr (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3),
+pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14),
+rstudioapi (>= 0.13), spelling (>= 2.2)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+DGCA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.3,NA,R (>= 3.2),"WGCNA, matrixStats, methods",NA,"knitr, impute, gplots, fdrtool, testthat, ggplot2, plotrix,
+GOstats, HGNChelper, org.Hs.eg.db, AnnotationDbi, abind,
+MEGENA, Matrix, doMC, igraph, cowplot, stats, utils",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+dichromat,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0-0.1,NA,"R (>= 2.10), stats",NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+diffobj,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.6,NA,R (>= 3.1.0),"crayon (>= 1.3.2), tools, methods, utils, stats",NA,"knitr, rmarkdown",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+digest,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6.37,NA,R (>= 3.3.0),utils,NA,"tinytest, simplermarkdown",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+diptest,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.77-1,NA,NA,"graphics, stats",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+DirichletMultinomial,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.44.0,NA,"S4Vectors, IRanges","stats4, methods, BiocGenerics",NA,"lattice, parallel, MASS, RColorBrewer, xtable",NA,LGPL-3,NA,NA,NA,NA,yes,4.3.2
+distributional,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.0,NA,NA,"vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv,
+utils, lifecycle, pillar",NA,"testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), evd,
+ggdist, ggplot2, gk",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+doBy,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.6.26,NA,"R (>= 4.2.0), methods","boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix,
+modelr, microbenchmark, rlang, tibble, tidyr,",NA,"geepack, knitr, lme4, markdown, multcomp, pbkrtest (>=
+0.5.2), survival, testthat (>= 2.1.0)",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+docopt,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.7.2,NA,NA,methods,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+doFuture,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.2,NA,"foreach (>= 1.5.0), future (>= 1.32.0)","future.apply, globals, iterators, parallel, utils",NA,"doRNG (>= 1.8.2), markdown, R.rsp",NA,LGPL (>= 2.1),NA,NA,NA,NA,no,4.3.3
+doParallel,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.17,NA,"R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0),
+parallel, utils",NA,NA,"caret, mlbench, rpart, RUnit",compiler,GPL-2,NA,NA,NA,NA,no,4.3.3
+doRNG,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8.6.2,NA,"R (>= 3.0.0), foreach, rngtools (>= 1.5)","stats, utils, iterators",NA,"doParallel, doMPI, doRedis, rbenchmark, devtools, knitr,
+rbibutils (>= 1.3), testthat, covr",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+DOSE,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.28.2,NA,R (>= 3.5.0),"AnnotationDbi, HDO.db, BiocParallel, fgsea, ggplot2, GOSemSim
+(>= 2.27.1), methods, qvalue, reshape2, stats, utils,
+yulab.utils",NA,"prettydoc, clusterProfiler, gson (>= 0.0.5), knitr,
+rmarkdown, org.Hs.eg.db, MPO.db, HPO.db, testthat",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+doSNOW,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.20,NA,"R (>= 2.5.0), foreach(>= 1.2.0), iterators(>= 1.0.0), snow(>=
+0.3.0), utils",NA,NA,"compiler, RUnit, caret, mlbench, rpart, parallel",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+dotCall64,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2,NA,R (>= 4.0),NA,NA,"microbenchmark, RhpcBLASctl, RColorBrewer, roxygen2, spam,
+testthat,",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+downlit,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.4,NA,R (>= 4.0.0),"brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs,
+withr, yaml",NA,"covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload,
+rmarkdown, testthat (>= 3.0.0), xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+downloader,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.1,NA,NA,"utils, digest",NA,testthat,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+dplyr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.4,NA,R (>= 3.5.0),"cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
+1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
+rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
+utils, vctrs (>= 0.6.4)",NA,"bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
+knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
+rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),
+testthat (>= 3.1.5), tidyr (>= 1.3.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+dqrng,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.1,NA,R (>= 3.5.0),Rcpp (>= 0.12.16),"Rcpp, BH (>= 1.64.0-1), sitmo (>= 2.0.0)","BH, testthat, knitr, rmarkdown, mvtnorm (>= 1.2-3), bench,
+sitmo",NA,AGPL-3,NA,NA,NA,NA,yes,4.3.3
+DropletUtils,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.22.0,NA,SingleCellExperiment,"utils, stats, methods, Matrix, Rcpp, BiocGenerics, S4Vectors,
+IRanges, GenomicRanges, SummarizedExperiment, BiocParallel,
+DelayedArray, DelayedMatrixStats, HDF5Array, rhdf5, edgeR,
+R.utils, dqrng, beachmat, scuttle","Rcpp, beachmat, Rhdf5lib, BH, dqrng, scuttle","testthat, knitr, BiocStyle, rmarkdown, jsonlite,
+DropletTestFiles",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+DT,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.33,NA,NA,"htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite
+(>= 0.9.16), magrittr, crosstalk, jquerylib, promises",NA,"knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future,
+testit, tibble",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+dtplyr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.1,NA,R (>= 3.3),"cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0),
+glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>=
+1.2.0), vctrs (>= 0.4.1)",NA,"bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>=
+1.1.0), waldo (>= 0.3.1)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+dynamicTreeCut,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.63-1,NA,"R (>= 2.3.0), stats",NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+e1071,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7-16,NA,NA,"graphics, grDevices, class, stats, methods, utils, proxy",NA,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+Matrix, MASS, slam",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+edgeR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.0.16,NA,"R (>= 3.6.0), limma (>= 3.41.5)","methods, graphics, stats, utils, locfit, Rcpp",Rcpp,"jsonlite, readr, rhdf5, splines, knitr, AnnotationDbi,
+Biobase, BiocStyle, SummarizedExperiment, org.Hs.eg.db, Matrix,
+SeuratObject",NA,GPL (>=2),NA,NA,NA,NA,yes,4.3.3
+effectsize,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.0,NA,R (>= 3.6),"bayestestR (>= 0.15.0), insight (>= 1.0.0), parameters (>=
+0.24.0), performance (>= 0.12.4), datawizard (>= 0.13.0),
+stats, utils",NA,"correlation (>= 0.8.4), see (>= 0.8.0), afex, BayesFactor,
+boot, brms, car, emmeans, gt, knitr, lavaan, lme4, lmerTest,
+mgcv, parsnip, pwr, rmarkdown, rms, rstanarm, rstantools,
+testthat (>= 3.1.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ellipse,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.0,NA,"R (>= 2.0.0),graphics,stats",NA,NA,MASS,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+ellipsis,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.2,NA,R (>= 3.2),rlang (>= 0.3.0),NA,"covr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+emmeans,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.11.0,NA,R (>= 4.1.0),"estimability (>= 1.4.1), graphics, methods, numDeriv, stats,
+utils, mvtnorm",NA,"bayesplot, bayestestR, biglm, brms, car, coda (>= 0.17),
+compositions, ggplot2, lattice, logspline, mediation, mgcv,
+multcomp, multcompView, nlme, ordinal (>= 2014.11-12), pbkrtest
+(>= 0.4-1), lme4, lmerTest (>= 2.0.32), MASS, MuMIn, rsm,
+knitr, rmarkdown, sandwich, scales, splines, testthat, tibble,
+xtable (>= 1.8-2)","CARBayes, coxme, gee, geepack, MCMCglmm, MCMCpack, mice,
+nnet, pscl, rstanarm, sommer, survival",GPL-2 | GPL-3,NA,NA,NA,NA,no,4.3.3
+EnhancedVolcano,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.20.0,NA,"ggplot2, ggrepel",methods,NA,"ggalt, ggrastr, RUnit, BiocGenerics, knitr, DESeq2, pasilla,
+airway, org.Hs.eg.db, gridExtra, magrittr, rmarkdown",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+EnrichmentBrowser,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.32.0,NA,"SummarizedExperiment, graph","AnnotationDbi, BiocFileCache, BiocManager, GSEABase, GO.db,
+KEGGREST, KEGGgraph, Rgraphviz, S4Vectors, SPIA, edgeR,
+graphite, hwriter, limma, methods, pathview, safe",NA,"ALL, BiocStyle, ComplexHeatmap, DESeq2, ReportingTools,
+airway, biocGraph, hgu95av2.db, geneplotter, knitr, msigdbr,
+rmarkdown, statmod",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+enrichplot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.22.0,NA,R (>= 3.5.0),"aplot (>= 0.2.1), DOSE (>= 3.16.0), ggfun (>= 0.1.3),
+ggnewscale, ggplot2, ggraph, graphics, grid, igraph, methods,
+plyr, purrr, RColorBrewer, reshape2, rlang, stats, utils,
+scatterpie, shadowtext, GOSemSim, magrittr, ggtree, yulab.utils
+(>= 0.0.8)",NA,"clusterProfiler, dplyr, europepmc, ggupset, knitr, rmarkdown,
+org.Hs.eg.db, prettydoc, tibble, tidyr, ggforce, AnnotationDbi,
+ggplotify, ggridges, grDevices, gridExtra, ggrepel (>= 0.9.0),
+ggstar, scales, ggtreeExtra, tidydr",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+enrichR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.4,NA,R (>= 3.5.0),"httr, curl, rjson, ggplot2, WriteXLS",NA,"knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+EnsDb.Hsapiens.v86,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.99.0,NA,ensembldb,NA,NA,NA,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+ensembldb,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.26.0,NA,"R (>= 3.5.0), BiocGenerics (>= 0.15.10), GenomicRanges (>=
+1.31.18), GenomicFeatures (>= 1.49.6), AnnotationFilter (>=
+1.5.2)","methods, RSQLite (>= 1.1), DBI, Biobase, GenomeInfoDb,
+AnnotationDbi (>= 1.31.19), rtracklayer, S4Vectors (>=
+0.23.10), Rsamtools, IRanges (>= 2.13.24), ProtGenerics,
+Biostrings (>= 2.47.9), curl",NA,"BiocStyle, knitr, EnsDb.Hsapiens.v86 (>= 0.99.8), testthat,
+BSgenome.Hsapiens.NCBI.GRCh38, ggbio (>= 1.24.0), Gviz (>=
+1.20.0), rmarkdown, AnnotationHub","RMariaDB, shiny",LGPL,NA,NA,NA,NA,no,4.3.3
+EnvStats,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1.0,NA,R (>= 3.5.0),"MASS, ggplot2, nortest",NA,"lattice, qcc, sp, boot, tinytest, covr, Hmisc",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+estimability,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.1,NA,"stats, R(>= 4.1.0)",NA,NA,"knitr, rmarkdown",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+etrunct,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+evaluate,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.3,NA,R (>= 3.6.0),NA,NA,"callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload,
+rlang, knitr, testthat (>= 3.0.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ExperimentHub,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.10.0,NA,"methods, BiocGenerics (>= 0.15.10), AnnotationHub (>= 3.3.6),
+BiocFileCache (>= 1.5.1)","utils, S4Vectors, BiocManager, rappdirs",NA,"knitr, BiocStyle, rmarkdown, HubPub, GenomicAlignments",ExperimentHubData,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+fabia,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.48.0,NA,"R (>= 3.6.0), Biobase","methods, graphics, grDevices, stats, utils",,NA,NA,LGPL (>= 2.1),NA,NA,NA,NA,yes,4.3.3
+factoextra,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.7,NA,"R (>= 3.1.2), ggplot2 (>= 2.2.0)","abind, cluster, dendextend, FactoMineR, ggpubr(>= 0.1.5),
+grid, stats, reshape2, ggrepel, tidyr",NA,"ade4, ca, igraph, MASS, knitr, mclust",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+FactoMineR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.11,NA,R (>= 4.0),"car,cluster,DT,ellipse,emmeans,flashClust,graphics,grDevices,lattice,leaps,MASS,multcompView,scatterplot3d,stats,utils,ggplot2,ggrepel",NA,"missMDA,knitr,Factoshiny,markdown",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+fANCOVA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6-1,NA,NA,NA,NA,NA,NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+fansi,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.6,NA,R (>= 3.1.0),"grDevices, utils",NA,"unitizer, knitr, rmarkdown",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+farver,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.2,NA,NA,NA,NA,"covr, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+fastcluster,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.6,NA,R (>= 3.0.0),NA,NA,NA,"stats, flashClust",FreeBSD | GPL-2 | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+fastDummies,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7.5,NA,R (>= 2.10),"data.table, tibble, stringr",NA,"testthat (>= 2.1.0), knitr, rmarkdown, covr, spelling",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+fastmap,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.0,NA,NA,NA,NA,testthat (>= 2.1.1),NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+fastmatch,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1-6,NA,R (>= 2.3.0),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+fgsea,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.28.0,NA,R (>= 4.1),"Rcpp, data.table, BiocParallel, stats, ggplot2 (>= 2.2.0),
+cowplot, grid, fastmatch, Matrix, scales, utils","Rcpp, BH","testthat, knitr, rmarkdown, reactome.db, AnnotationDbi,
+parallel, org.Mm.eg.db, limma, GEOquery, msigdbr, aggregation,
+Seurat",NA,MIT + file LICENCE,NA,NA,NA,NA,yes,4.3.3
+FigR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.0,NA,"Matrix, SummarizedExperiment, dplyr, ggplot2, cowplot,
+chromVAR, motifmatchr","Matrix, SummarizedExperiment, GenomicRanges, dplyr, ggplot2,
+chromVAR, doParallel, doSNOW, ggrepel, ComplexHeatmap,
+BuenColors, pbmcapply, tibble, scales, reshape2, Rmpfr,
+optmatch, FNN",NA,"BSgenome.Mmusculus.UCSC.hg19, BSgenome.Mmusculus.UCSC.mm10,
+BSgenome.Hsapiens.UCSC.hg38, networkD3, knitr, rmarkdown,
+ggrastr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+filelock,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.3,NA,R (>= 3.4),NA,NA,"callr (>= 2.0.0), covr, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+fitdistrplus,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2-2,NA,"R (>= 3.5.0), MASS, grDevices, survival, methods","stats, rlang",NA,"actuar, rgenoud, mc2d, gamlss.dist, knitr, ggplot2,
+GeneralizedHyperbolic, rmarkdown, Hmisc, bookdown",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+flashClust,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.01-2,NA,R (>= 2.3.0),NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,NA,4.3.3
+flexmix,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3-20,NA,"R (>= 2.15.0), lattice","graphics, grid, grDevices, methods, modeltools (>= 0.2-16),
+nnet, stats, stats4, utils",NA,"actuar, codetools, diptest, Ecdat, ellipse, gclus, glmnet,
+lme4 (>= 1.1), MASS, mgcv (>= 1.8-0), mlbench, multcomp,
+mvtnorm, SuppDists, survival",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+FNN,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.4.1,NA,R (>= 4.0.0),NA,NA,"chemometrics, mvtnorm",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+fontawesome,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.3,NA,R (>= 3.3.0),"rlang (>= 1.0.6), htmltools (>= 0.5.1.1)",NA,"covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31),
+testthat (>= 3.0.0), rsvg",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+forcats,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.0,NA,R (>= 3.4),"cli (>= 3.4.0), glue, lifecycle, magrittr, rlang (>= 1.0.0),
+tibble",NA,"covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
+3.0.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+foreach,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.2,NA,R (>= 2.5.0),"codetools, utils, iterators",NA,"randomForest, doMC, doParallel, testthat, knitr, rmarkdown",NA,Apache License (== 2.0),NA,NA,NA,NA,no,4.3.3
+foreign,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.8-90,recommended,R (>= 4.0.0),"methods, utils, stats",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+formatR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.14,NA,R (>= 3.2.3),NA,NA,"rstudioapi, shiny, testit, rmarkdown, knitr",NA,GPL,NA,NA,NA,NA,no,4.3.1
+Formula,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2-5,NA,"R (>= 2.0.0), stats",NA,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,4.3.3
+fpc,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.2-13,NA,R (>= 2.0),"MASS, cluster, mclust, flexmix, prabclus, class, diptest,
+robustbase, kernlab, grDevices, graphics, methods, stats,
+utils, parallel",NA,"tclust, pdfCluster, mvtnorm",NA,GPL,NA,NA,NA,NA,no,4.3.3
+fresh,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.1,NA,NA,"bslib, htmltools, rstudioapi, sass, shiny",NA,"bsicons, shinyWidgets, shinydashboard, bs4Dash, knitr,
+rmarkdown, testthat (>= 2.1.0), covr",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+fs,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6.6,NA,R (>= 3.6),methods,NA,"covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
+testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+futile.logger,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.3,NA,R (>= 3.0.0),"utils, lambda.r (>= 1.1.0), futile.options",NA,"testthat, jsonlite",NA,LGPL-3,NA,NA,NA,NA,no,4.3.1
+futile.options,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.1,NA,R (>= 2.8.0),NA,NA,NA,NA,LGPL-3,NA,NA,NA,NA,no,4.3.1
+future,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.40.0,NA,R (>= 3.2.0),"digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel,
+parallelly (>= 1.43.0), utils",NA,"methods, RhpcBLASctl, R.rsp, markdown",NA,LGPL (>= 2.1),NA,NA,NA,NA,no,4.3.3
+future.apply,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.11.3,NA,"R (>= 3.2.0), future (>= 1.28.0)","globals (>= 0.16.1), parallel, utils",NA,"datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+gargle,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.2,NA,R (>= 3.6),"cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>=
+1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>=
+1.1.0), stats, utils, withr",NA,"aws.ec2metadata, aws.signature, covr, httpuv, knitr,
+rmarkdown, sodium, spelling, testthat (>= 3.1.7)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+generics,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.3,NA,R (>= 3.2),methods,NA,"covr, pkgload, testthat (>= 3.0.0), tibble, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+GenomeInfoDb,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.38.8,NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.25.12), IRanges (>= 2.13.12)","stats, stats4, utils, RCurl, GenomeInfoDbData",NA,"R.utils, data.table, GenomicRanges, Rsamtools,
+GenomicAlignments, GenomicFeatures, BSgenome,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Celegans.UCSC.ce2,
+BSgenome.Hsapiens.NCBI.GRCh38, RUnit, BiocStyle, knitr",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+GenomeInfoDbData,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.11,NA,R (>= 3.5.0),NA,NA,NA,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+GenomicAlignments,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.38.2,NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9), GenomeInfoDb (>= 1.13.1),
+GenomicRanges (>= 1.41.5), SummarizedExperiment (>= 1.9.13),
+Biostrings (>= 2.55.7), Rsamtools (>= 1.31.2)","methods, utils, stats, BiocGenerics, S4Vectors, IRanges,
+GenomicRanges, Biostrings, Rsamtools, BiocParallel","S4Vectors, IRanges","ShortRead, rtracklayer, BSgenome, GenomicFeatures,
+RNAseqData.HNRNPC.bam.chr14, pasillaBamSubset,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+BSgenome.Dmelanogaster.UCSC.dm3, BSgenome.Hsapiens.UCSC.hg19,
+DESeq2, edgeR, RUnit, BiocStyle",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+GenomicFeatures,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.54.4,NA,"R (>= 3.5.0), BiocGenerics (>= 0.1.0), S4Vectors (>= 0.17.29),
+IRanges (>= 2.13.23), GenomeInfoDb (>= 1.35.8), GenomicRanges
+(>= 1.31.17), AnnotationDbi (>= 1.41.4)","methods, utils, stats, tools, httr, rjson, DBI, RSQLite (>=
+2.0), XVector (>= 0.19.7), Biostrings (>= 2.47.6), BiocIO,
+rtracklayer (>= 1.51.5), biomaRt (>= 2.58.2), Biobase (>=
+2.15.1)",NA,"RMariaDB, org.Mm.eg.db, org.Hs.eg.db, BSgenome,
+BSgenome.Hsapiens.UCSC.hg19 (>= 1.3.17),
+BSgenome.Celegans.UCSC.ce11, BSgenome.Dmelanogaster.UCSC.dm3
+(>= 1.3.17), mirbase.db, FDb.UCSC.tRNAs,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Celegans.UCSC.ce11.ensGene,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene (>= 2.7.1),
+TxDb.Mmusculus.UCSC.mm10.knownGene (>= 3.4.7),
+TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts,
+TxDb.Hsapiens.UCSC.hg38.knownGene (>= 3.4.6),
+SNPlocs.Hsapiens.dbSNP144.GRCh38, Rsamtools, pasillaBamSubset
+(>= 0.0.5), GenomicAlignments (>= 1.15.7), ensembldb,
+AnnotationFilter, RUnit, BiocStyle, knitr, markdown",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+GenomicRanges,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.54.1,NA,"R (>= 4.0.0), methods, stats4, BiocGenerics (>= 0.37.0),
+S4Vectors (>= 0.27.12), IRanges (>= 2.31.2), GenomeInfoDb (>=
+1.15.2)","utils, stats, XVector (>= 0.29.2)","S4Vectors, IRanges","Matrix, Biobase, AnnotationDbi, annotate, Biostrings (>=
+2.25.3), SummarizedExperiment (>= 0.1.5), Rsamtools (>=
+1.13.53), GenomicAlignments, rtracklayer, BSgenome,
+GenomicFeatures, Gviz, VariantAnnotation, AnnotationHub,
+DESeq2, DEXSeq, edgeR, KEGGgraph, RNAseqData.HNRNPC.bam.chr14,
+pasillaBamSubset, KEGGREST, hgu95av2.db, hgu95av2probe,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Hsapiens.UCSC.hg19,
+BSgenome.Mmusculus.UCSC.mm10,
+TxDb.Athaliana.BioMart.plantsmart22,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr,
+rmarkdown, BiocStyle",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.2
+gert,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.5,NA,NA,"askpass, credentials (>= 1.2.1), openssl (>= 2.0.3),
+rstudioapi (>= 0.11), sys, zip (>= 2.1.0)",NA,"spelling, knitr, rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+GetoptLong,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.5,NA,R (>= 3.3.0),"rjson, GlobalOptions (>= 0.1.0), methods, crayon",NA,"testthat (>= 1.0.0), knitr, markdown, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ggbeeswarm,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.7.2,NA,"R (>= 3.5.0), ggplot2 (>= 3.3.0)","beeswarm, lifecycle, vipor, cli",NA,gridExtra,NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+ggdendro,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.0,NA,R(>= 3.5),"MASS, ggplot2(>= 0.9.2)",NA,"rpart (>= 4.0-0), tree, testthat, knitr, cluster, scales,
+spelling, rmarkdown, covr",NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,4.3.3
+ggeffects,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.2.1,NA,R (>= 3.6),"graphics, insight (>= 1.0.1), datawizard (>= 1.0.0), stats,
+utils",NA,"AER, afex, aod, bayestestR, betareg, brglm, brglm2, brms,
+broom, car, carData, clubSandwich, dfidx, effects (>= 4.2-2),
+effectsize (>= 1.0.0), emmeans (>= 1.8.9), fixest, gam, gamlss,
+gamm4, gee, geepack, ggplot2, ggrepel, GLMMadaptive, glmmTMB
+(>= 1.1.7), gridExtra, gt, haven, htmltools, httr2, jsonlite,
+knitr, lme4 (>= 1.1-35), logistf, logitr, marginaleffects (>=
+0.25.0), modelbased (>= 0.9.0), MASS, Matrix, mice, MCMCglmm,
+MuMIn, mgcv, mclogit, mlogit, nestedLogit (>= 0.3.0), nlme,
+nnet, ordinal, parameters, parsnip, patchwork, pscl, plm,
+quantreg, rmarkdown, rms, robustbase, rstanarm, rstantools,
+sandwich, sdmTMB (>= 0.4.0), see, sjlabelled (>= 1.1.2),
+sjstats, speedglm, survey, survival, testthat, tibble,
+tinytable (>= 0.1.0), vdiffr, withr, VGAM",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ggforce,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.2,NA,"ggplot2 (>= 3.3.6), R (>= 3.3.0)","Rcpp (>= 0.12.2), grid, scales, MASS, tweenr (>= 0.1.5),
+gtable, rlang, polyclip, stats, grDevices, tidyselect, withr,
+utils, lifecycle, cli, vctrs, systemfonts","Rcpp, RcppEigen","sessioninfo, concaveman, deldir, latex2exp, reshape2, units
+(>= 0.4-6), covr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+ggfun,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.8,NA,R (>= 4.1.0),"cli, dplyr, ggplot2, grid, rlang, utils, yulab.utils (>=
+0.1.6)",NA,"ggplotify, knitr, rmarkdown, prettydoc, tidyr, ggnewscale",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+ggnewscale,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.1,NA,NA,ggplot2 (>= 3.5.0),NA,"testthat, vdiffr, covr",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+ggplot.multistats,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.1,NA,NA,"methods, rlang, scales, hexbin, ggplot2 (>= 3.3.0)",NA,NA,NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+ggplot2,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.5.2,NA,R (>= 3.5),"cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>=
+1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)",NA,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj,
+maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>=
+1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite
+(>= 2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2",sp,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ggplotify,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.2,NA,R (>= 3.4.0),"ggplot2, graphics, grDevices, grid, gridGraphics, yulab.utils",NA,"aplot, colorspace, cowplot, ggimage, knitr, rmarkdown,
+lattice, prettydoc, vcd, utils",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+ggpointdensity,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.0,NA,R (>= 3.2),ggplot2,NA,"viridis, dplyr",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+ggpubr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6.0,NA,"R (>= 3.1.0), ggplot2 (>= 3.4.0)","ggrepel (>= 0.9.2), grid, ggsci, stats, utils, tidyr (>=
+1.3.0), purrr, dplyr (>= 0.7.1), cowplot (>= 1.1.1), ggsignif,
+scales, gridExtra, glue, polynom, rlang (>= 0.4.6), rstatix (>=
+0.7.2), tibble, magrittr",NA,"grDevices, knitr, RColorBrewer, gtable, testthat",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+ggraph,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.2.1,NA,"R (>= 2.10), ggplot2 (>= 3.5.0)","dplyr, ggforce (>= 0.3.1), grid, igraph (>= 1.0.0), scales,
+MASS, ggrepel, utils, stats, viridis, rlang, tidygraph,
+graphlayouts (>= 1.1.0), withr, cli, vctrs, lifecycle, memoise",cpp11,"network, knitr, rmarkdown, purrr, tibble, seriation, deldir,
+gganimate, covr, sf, sfnetworks",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+ggrastr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.2,NA,R (>= 3.2.2),"ggplot2 (>= 2.1.0), Cairo (>= 1.5.9), ggbeeswarm, grid, png,
+ragg",NA,"knitr, maps, rmarkdown, sf",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ggrepel,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.9.6,NA,"R (>= 3.0.0), ggplot2 (>= 2.2.0)","grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>=
+2.5.0)",Rcpp,"knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp,
+patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr,
+readr, stringr",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+ggridges,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.6,NA,R (>= 3.2),"ggplot2 (>= 3.4.0), grid (>= 3.0.0), scales (>= 0.4.1), withr
+(>= 2.1.1)",NA,"covr, dplyr, patchwork, ggplot2movies, forcats, knitr,
+rmarkdown, testthat, vdiffr",NA,GPL-2 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+ggsci,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.2.0,NA,R (>= 3.5.0),"ggplot2 (>= 2.0.0), grDevices, scales",NA,"gridExtra, knitr, ragg, rmarkdown",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+ggsignif,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6.4,NA,NA,ggplot2 (>= 3.3.5),NA,"knitr, rmarkdown, testthat, vdiffr (>= 1.0.2)",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+ggthemes,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,5.1.0,NA,R (>= 3.3.0),"ggplot2 (>= 3.0.0), graphics, grid, lifecycle, methods, purrr,
+scales, stringr, tibble",NA,"dplyr, covr, extrafont, glue, knitr, lattice, lintr, maps,
+mapproj, pander, quantreg, rlang, rmarkdown, spelling, testthat
+(>= 3.2.0), tidyr, vdiffr, withr",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+ggtree,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.10.1,NA,R (>= 3.5.0),"ape, aplot, dplyr, ggplot2 (> 3.3.6), grid, magrittr, methods,
+purrr, rlang, ggfun (>= 0.0.9), yulab.utils, tidyr, tidytree
+(>= 0.4.5), treeio (>= 1.8.0), utils, scales, stats, cli",NA,"emojifont, ggimage, ggplotify, shadowtext, grDevices, knitr,
+prettydoc, rmarkdown, testthat, tibble, glue",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+gh,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.1,NA,R (>= 3.6),"cli (>= 3.0.1), gitcreds, glue, httr2, ini, jsonlite,
+lifecycle, rlang (>= 1.0.0)",NA,"covr, knitr, mockery, rmarkdown, rprojroot, spelling,
+testthat (>= 3.0.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+gitcreds,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.2,NA,R (>= 3.4),NA,NA,"codetools, covr, knitr, mockery, oskeyring, rmarkdown,
+testthat (>= 3.0.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+glmGamPoi,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.14.3,NA,NA,"Rcpp, DelayedMatrixStats, matrixStats, MatrixGenerics,
+DelayedArray, HDF5Array, SummarizedExperiment,
+SingleCellExperiment, BiocGenerics, methods, stats, utils,
+splines, rlang, vctrs","Rcpp, RcppArmadillo, beachmat","testthat (>= 2.1.0), zoo, DESeq2, edgeR, limma, beachmat,
+MASS, statmod, ggplot2, bench, BiocParallel, knitr, rmarkdown,
+BiocStyle, TENxPBMCData, muscData, scran, Matrix, dplyr",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+glmnet,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.1-8,NA,"R (>= 3.6.0), Matrix (>= 1.0-6)","methods, utils, foreach, shape, survival, Rcpp","RcppEigen, Rcpp","knitr, lars, testthat, xfun, rmarkdown",NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+glmnetUtils,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.9,NA,NA,"stats, graphics, grDevices, glmnet, parallel, Matrix",NA,"knitr, rmarkdown, MASS, doParallel, testthat",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+GlobalOptions,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.2,NA,"R (>= 3.3.0), methods",utils,NA,"testthat (>= 1.0.0), knitr, markdown, GetoptLong",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+globals,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.17.0,NA,R (>= 3.1.2),codetools,NA,NA,NA,LGPL (>= 2.1),NA,NA,NA,NA,no,4.3.3
+glue,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8.0,NA,R (>= 3.6),methods,NA,"crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang,
+rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0),
+waldo (>= 0.5.3), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+gmp,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.7-5,NA,R (>= 3.5.0),methods,NA,"Rmpfr, MASS, round",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+GO.db,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.18.0,NA,"R (>= 2.7.0), methods, AnnotationDbi (>= 1.63.2)",NA,NA,DBI,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+goftest,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2-3,NA,R (>= 3.3),stats,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+GOfuncR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.22.2,NA,"R (>= 3.4), vioplot (>= 0.2),","Rcpp (>= 0.11.5), mapplots (>= 1.5), gtools (>= 3.5.0),
+GenomicRanges (>= 1.28.4), IRanges, AnnotationDbi, utils,
+grDevices, graphics, stats,",Rcpp,"Homo.sapiens, BiocStyle, knitr, markdown, rmarkdown, testthat",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+googledrive,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.1,NA,R (>= 3.6),"cli (>= 3.0.0), gargle (>= 1.5.0), glue (>= 1.4.2), httr,
+jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>=
+1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs
+(>= 0.3.0), withr",NA,"curl, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, spelling,
+testthat (>= 3.1.3)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+googlesheets4,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.1,NA,R (>= 3.6),"cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>=
+1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr,
+methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
+utils, vctrs (>= 0.2.3), withr",NA,"readr, rmarkdown, spelling, testthat (>= 3.1.7)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+GOSemSim,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.28.1,NA,R (>= 3.5.0),"AnnotationDbi, GO.db, methods, rlang, stats, utils,
+yulab.utils",Rcpp,"AnnotationHub, BiocManager, clusterProfiler, DOSE, knitr,
+readr, rmarkdown, org.Hs.eg.db, prettydoc, testthat, tidyr,
+tidyselect, ROCR",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+GPArotation,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2025.3-1,NA,R (>= 2.0.0),stats,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+gplots,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.2.0,NA,R (>= 3.0),"gtools, stats, caTools, KernSmooth, methods",NA,"grid, MASS, knitr, rmarkdown, r2d2, nlme",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+graph,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.80.0,NA,"R (>= 2.10), methods, BiocGenerics (>= 0.13.11)","stats, stats4, utils",NA,"SparseM (>= 0.36), XML, RBGL, RUnit, cluster, BiocStyle,
+knitr",Rgraphviz,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+graphics,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,grDevices,NA,NA,NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+graphite,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.48.0,NA,"R (>= 4.2), methods","AnnotationDbi, graph (>= 1.67.1), httr, rappdirs, stats,
+utils, graphics, rlang, purrr",NA,"checkmate, a4Preproc, ALL, BiocStyle, codetools,
+hgu133plus2.db, hgu95av2.db, impute, knitr, org.Hs.eg.db,
+parallel, R.rsp, RCy3, rmarkdown, SPIA (>= 2.2), testthat,
+topologyGSA (>= 1.4.0)",NA,AGPL-3,NA,NA,NA,NA,no,4.3.3
+graphlayouts,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.2,NA,R (>= 3.6.0),"igraph (>= 2.0.0), Rcpp","Rcpp, RcppArmadillo","testthat, ggplot2, uwot, oaqc",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+grDevices,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,NA,NA,KernSmooth,NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+grid,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,"grDevices, utils",NA,NA,NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+gridExtra,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3,NA,NA,"gtable, grid, grDevices, graphics, utils",NA,"ggplot2, egg, lattice, knitr, testthat",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+gridGraphics,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5-1,NA,"grid, graphics",grDevices,NA,"magick (>= 1.3), pdftools (>= 1.6)",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+grr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.9.5,NA,R (>= 3.0.0),NA,NA,NA,NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+GSEABase,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.64.0,NA,"R (>= 2.6.0), BiocGenerics (>= 0.13.8), Biobase (>= 2.17.8),
+annotate (>= 1.45.3), methods, graph (>= 1.37.2)","AnnotationDbi, XML",NA,"hgu95av2.db, GO.db, org.Hs.eg.db, Rgraphviz, ReportingTools,
+testthat, BiocStyle, knitr, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+gson,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.0,NA,NA,"jsonlite, methods, rlang, stats, tidyr, utils",NA,NA,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+gsubfn,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.7,NA,proto,NA,NA,"boot, chron, grid, lattice, quantreg, svUnit, tcltk, zoo",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+gtable,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.6,NA,R (>= 4.0),"cli, glue, grid, lifecycle, rlang (>= 1.1.0), stats",NA,"covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+gtools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.9.5,NA,"methods, stats, utils",NA,NA,"car, gplots, knitr, rstudioapi, SGP, taxize",NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+HardyWeinberg,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7.8,NA,"R (>= 1.8.0), mice, nnet, Rsolnp, shape",Rcpp,Rcpp,"knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+harmony,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.3,NA,"R(>= 3.5.0), Rcpp","dplyr, cowplot, ggplot2, Matrix, methods, tibble, rlang,
+RhpcBLASctl","Rcpp, RcppArmadillo, RcppProgress","SingleCellExperiment, Seurat (>= 4.1.1), testthat, knitr,
+rmarkdown, ggthemes, ggrepel, patchwork, tidyverse, tidyr,
+data.table",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+haven,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.5.4,NA,R (>= 3.6),"cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods,
+readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs
+(>= 0.3.0)",cpp11,"covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown,
+testthat (>= 3.0.0), utf8",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+HDF5Array,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.30.1,NA,"R (>= 3.4), methods, DelayedArray (>= 0.27.2), rhdf5 (>=
+2.31.6)","utils, stats, tools, Matrix, rhdf5filters, BiocGenerics (>=
+0.31.5), S4Vectors, IRanges, S4Arrays (>= 1.1.1)","S4Vectors (>= 0.27.13), Rhdf5lib","BiocParallel, GenomicRanges, SummarizedExperiment (>=
+1.15.1), h5vcData, ExperimentHub, TENxBrainData, zellkonverter,
+GenomicFeatures, RUnit, SingleCellExperiment,
+DelayedMatrixStats, genefilter",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+hdf5r,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.12,NA,"R (>= 3.2.2), methods","R6, bit64, utils",NA,"testthat, knitr, rmarkdown, nycflights13, reshape2, formatR,",NA,Apache License 2.0 | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+HDO.db,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.99.1,NA,R (>= 4.2.0),"AnnotationDbi, methods, utils",NA,"rmarkdown, knitr, testthat (>= 3.0.0)",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+hdWGCNA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.01,NA,"R (>= 3.5.0), harmony (>= 1.0.1), Seurat (>= 4.0.0), ggrepel
+(>= 0.9.0), WGCNA, igraph","WGCNA, Seurat, Matrix, harmony, igraph, ggplot2, dplyr,
+tester, proxy",NA,testthat (>= 3.0.0),NA,GNU GPLv3,NA,NA,NA,NA,no,4.3.3
+heplots,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7.4,NA,"R (>= 4.1.0), broom","car, MASS, graphics, grDevices, stats, magrittr, purrr, rgl,
+tibble",NA,"candisc, carData, effects, reshape, gplots, nlme, lattice,
+reshape2, corrgram, animation, mvinfluence, knitr, litedown,
+rmarkdown, markdown, dplyr, tidyr, ggplot2, bookdown,
+patchwork, tinytable, glue, here, Sleuth2, rrcov, archdata,
+qqtest, vcdExtra, R.rsp, KernSmooth, aplpack, foreign",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+here,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.1,NA,NA,rprojroot (>= 2.0.2),NA,"conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+rlang, rmarkdown, testthat, uuid, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+hexbin,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.28.5,NA,"R (>= 2.0.1), methods","lattice, grid, graphics, grDevices, stats, utils",NA,"marray, affy, Biobase, limma, knitr",NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+highr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.11,NA,R (>= 3.3.0),xfun (>= 0.18),NA,"knitr, markdown, testit",NA,GPL,NA,NA,NA,NA,no,4.3.3
+Hmisc,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,5.2-3,NA,R (>= 4.2.0),"methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid,
+gridExtra, data.table, htmlTable (>= 1.11.0), viridis,
+htmltools, base64enc, colorspace, rmarkdown, knitr, Formula",NA,"survival, qreport, acepack, chron, rms, mice, rstudioapi,
+tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP,
+digest, parallel, polspline, abind, kableExtra, rio, lattice,
+latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs,
+getPass, keyring, safer, htm2txt",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+hms,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.3,NA,NA,"lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>=
+0.3.8)",NA,"crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.1
+htmlTable,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.4.3,NA,R (>= 4.1),"stringr, knitr (>= 1.6), magrittr (>= 1.5), methods,
+checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)",NA,"testthat, XML, xml2, Hmisc, rmarkdown, chron, lubridate,
+tibble, purrr, tidyselect, glue, rlang, tidyr (>= 0.7.2), dplyr
+(>= 0.7.4)",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+htmltools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.8.1,NA,R (>= 2.14.1),"base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>=
+1.0.0), utils",NA,"Cairo, markdown, ragg, shiny, testthat, withr",knitr,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+htmlwidgets,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6.4,NA,NA,"grDevices, htmltools (>= 0.5.7), jsonlite (>= 0.9.16), knitr
+(>= 1.8), rmarkdown, yaml",NA,testthat,shiny (>= 1.1),MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+httpuv,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6.16,NA,R (>= 2.15.1),"later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils","later, Rcpp","callr, curl, jsonlite, testthat, websocket",NA,GPL (>= 2) | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+httr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.7,NA,R (>= 3.5),"curl (>= 5.0.2), jsonlite, mime, openssl (>= 0.8), R6",NA,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.1
+httr2,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.2,NA,R (>= 4.0),"cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr,
+openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3),
+withr",NA,"askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite,
+knitr, later (>= 1.4.0), nanonext, paws.common, promises,
+rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+hwriter,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.2.1,NA,R (>= 2.6.0),NA,NA,NA,NA,LGPL-2.1,NA,NA,NA,NA,no,4.3.3
+ica,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0-3,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+ids,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.1,NA,NA,"openssl, uuid",NA,"knitr, rcorpora, rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+igraph,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.4,NA,"methods, R (>= 3.5.0)","cli, graphics, grDevices, lifecycle, magrittr, Matrix,
+pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs",cpp11 (>= 0.5.0),"ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr,
+rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat,
+vdiffr, withr",graph,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+impute,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.76.0,NA,R (>= 2.10),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,4.3.2
+ini,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.1,NA,NA,NA,NA,testthat,NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+inline,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.21,NA,NA,methods,NA,"Rcpp, tinytest",NA,LGPL,NA,NA,NA,NA,no,4.3.3
+insight,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.0,NA,R (>= 3.6),"methods, stats, utils",NA,"AER, afex, aod, ape, BayesFactor, bayestestR, bbmle,
+bdsmatrix, betareg, bife, biglm, BH, blavaan (>= 0.5-5), blme,
+boot, brms, broom, car, carData, censReg, cgam, clubSandwich,
+cobalt, coxme, cplm, crch, curl, datawizard, effectsize,
+emmeans, epiR, estimatr, feisr, fixest (>= 0.11.2), fungible,
+fwb, gam, gamlss, gamlss.data, gamm4, gbm, gee, geepack, geoR,
+GLMMadaptive, glmmTMB (>= 1.1.10), glmtoolbox, gmnl, grDevices,
+gt, httptest2, httr2, interp, ivreg, JM, knitr, lavaan,
+lavaSearch2, lfe, lme4, lmerTest, lmtest, logistf, logitr,
+marginaleffects (>= 0.25.0), MASS, Matrix, mclogit, mclust,
+MCMCglmm, merTools, metaBMA, metadat, metafor, metaplus, mgcv,
+mice (>= 3.17.0), mlogit, mmrm, modelbased (>= 0.9.0), multgee,
+MuMIn, nestedLogit, nlme, nnet, nonnest2, ordinal, panelr,
+parameters, parsnip, pbkrtest, performance, phylolm, plm,
+poorman, PROreg (>= 1.3.0), pscl, psych, quantreg, Rcpp,
+RcppEigen, rmarkdown, rms, robustbase, robustlmm, rpart,
+rstanarm (>= 2.21.1), rstantools (>= 2.1.0), rstudioapi,
+RWiener, sandwich, serp, speedglm, splines, statmod, survey,
+survival, svylme, testthat, tinytable (>= 0.8.0), TMB,
+truncreg, tune, tweedie, VGAM, WeightIt, withr",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+interactiveDisplayBase,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.40.0,NA,"R (>= 2.10), methods, BiocGenerics","shiny, DT",NA,"knitr, markdown",rstudioapi,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+invgamma,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1,NA,NA,NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+IRanges,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.36.0,NA,"R (>= 4.0.0), methods, utils, stats, BiocGenerics (>= 0.39.2),
+S4Vectors (>= 0.33.3)",stats4,S4Vectors,"XVector, GenomicRanges, Rsamtools, GenomicAlignments,
+GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset,
+RUnit, BiocStyle",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.2
+irlba,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3.5.1,NA,"R (>= 3.6.2), Matrix","stats, methods",Matrix,NA,NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+isoband,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.7,NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+testthat, xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.1
+iterators,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.14,NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,Apache License (== 2.0),NA,NA,NA,NA,no,4.3.3
+JASPAR2020,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.99.10,NA,"R (>= 3.6.0), methods",NA,NA,"knitr, rmarkdown, TFBSTools (>= 1.23.1)",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+JASPAR2024,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.99.6,NA,"R (>= 4.3.0), methods, BiocFileCache, utils",NA,NA,"knitr, rmarkdown, BiocStyle, RSQLite",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+jomo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.7-6,NA,NA,"stats, lme4, survival, MASS, ordinal, tibble",NA,mitml,NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+jquerylib,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.4,NA,NA,htmltools,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+jsonlite,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.0,NA,methods,NA,NA,"httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+KEGGgraph,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.62.0,NA,R (>= 3.5.0),"methods, XML (>= 2.3-0), graph, utils, RCurl, Rgraphviz",NA,"RBGL, testthat, RColorBrewer, org.Hs.eg.db, hgu133plus2.db,
+SPIA",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+KEGGREST,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.42.0,NA,R (>= 3.5.0),"methods, httr, png, Biostrings",NA,"RUnit, BiocGenerics, knitr, markdown",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.2
+kernlab,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.9-33,NA,R (>= 2.10),"methods, stats, grDevices, graphics",NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+KernSmooth,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.23-26,recommended,"R (>= 2.5.0), stats",NA,NA,"MASS, carData",NA,Unlimited,NA,NA,NA,NA,yes,4.3.3
+knitr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.50,NA,R (>= 3.6.0),"evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>=
+0.51), yaml (>= 2.1.19)",NA,"bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski,
+gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1),
+magick, litedown, markdown (>= 1.3), png, ragg, reticulate (>=
+1.4), rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext,
+styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble,
+tikzDevice (>= 0.10), tinytex (>= 0.56), webshot, rstudioapi,
+svglite",NA,GPL,NA,NA,NA,NA,no,4.3.3
+knn.covertree,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0,NA,NA,"Rcpp (>= 1.0.2), RcppEigen (>= 0.3.3.5.0), Matrix, methods","Rcpp, RcppEigen","testthat, FNN",NA,AGPL-3,NA,NA,NA,NA,yes,4.3.3
+ks,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.15.0,NA,R (>= 2.10.0),"FNN (>= 1.1), kernlab, KernSmooth (>= 2.22), Matrix, mclust,
+mgcv, multicool, mvtnorm (>= 1.0-0), pracma",NA,"geometry, MASS, misc3d (>= 0.4-0), oz, plot3D, rgl (>= 0.66)",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+labeling,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.3,NA,NA,"stats, graphics",NA,NA,NA,MIT + file LICENSE | Unlimited,NA,NA,NA,NA,no,4.3.1
+laeken,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.3,NA,R (>= 3.2.0),"boot, MASS",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+lambda.r,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.4,NA,R (>= 3.0.0),formatR,NA,testit,NA,LGPL-3,NA,NA,NA,NA,no,4.3.1
+later,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.2,NA,NA,"Rcpp (>= 0.12.9), rlang",Rcpp,"knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+lattice,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.22-7,recommended,R (>= 4.0.0),"grid, grDevices, graphics, stats, utils",NA,"KernSmooth, MASS, latticeExtra, colorspace","chron, zoo",GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+lazyeval,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.2,NA,R (>= 3.1.0),NA,NA,"knitr, rmarkdown (>= 0.2.65), testthat, covr",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+leaps,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.2,NA,,NA,NA,biglm,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+leiden,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.3.1,NA,NA,"methods, reticulate, Matrix, igraph (>= 1.2.7)",NA,"bipartite, covr, data.table, devtools, graphsim, knitr,
+markdown, multiplex, multinet, network, qpdf, RColorBrewer,
+remotes, rmarkdown, spelling, testthat, tibble",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+leidenbase,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.35,NA,R (>= 3.5.0),igraph (>= 0.9.0),NA,"rmarkdown, knitr, testthat (>= 3.1.0), pandoc",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+lifecycle,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.4,NA,R (>= 3.6),"cli (>= 3.4.0), glue, rlang (>= 1.1.0)",NA,"covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
+tibble, tidyverse, tools, vctrs, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+limma,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.58.1,NA,R (>= 3.6.0),"grDevices, graphics, stats, utils, methods, statmod",NA,"BiasedUrn, ellipse, gplots, knitr, locfit, MASS, splines,
+affy, AnnotationDbi, Biobase, BiocStyle, GO.db, illuminaio,
+org.Hs.eg.db, vsn",NA,GPL (>=2),NA,NA,NA,NA,yes,4.3.3
+listenv,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.9.1,NA,R (>= 3.1.2),NA,NA,"R.utils, R.rsp, markdown",NA,LGPL (>= 2.1),NA,NA,NA,NA,no,4.3.3
+lme4,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1-37,NA,"R (>= 3.6.0), Matrix, methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4),
+reformulas (>= 0.3.0)","Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>=
+1.2-3)","knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2,
+mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
+numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble,
+merDeriv",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+lmerTest,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1-3,NA,"R (>= 3.2.5), lme4 (>= 1.1-10), stats, methods","numDeriv, MASS, ggplot2",NA,"pbkrtest (>= 0.4-3), tools",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+lmtest,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.9-40,NA,"R (>= 3.0.0), stats, zoo",graphics,NA,"car, strucchange, sandwich, dynlm, stats4, survival, AER",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+locfit,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5-9.12,NA,R (>= 4.1.0),lattice,NA,"interp, gam",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+logger,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.0,NA,R (>= 4.0.0),utils,NA,"botor, covr, crayon, devtools, glue, jsonlite, knitr, mirai
+(>= 1.3.0), pander, parallel, R.utils, rmarkdown, roxygen2,
+RPushbullet, rsyslog, shiny, slackr (>= 1.4.1), syslognet,
+telegram, testthat (>= 3.0.0), withr","futile.logger, log4r, logging",MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+logging,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.10-108,NA,R (>= 3.2.0),methods,NA,"testthat, crayon",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+loo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.8.0,NA,R (>= 3.1.2),"checkmate, matrixStats (>= 0.52), parallel, posterior (>=
+1.5.0), stats",NA,"bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics,
+knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools,
+spdep, testthat (>= 2.1.0)",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+lubridate,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.9.4,NA,"methods, R (>= 3.2)","generics, timechange (>= 0.3.0)",NA,"covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.6.5)","chron, data.table, timeDate, tis, zoo",GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+magrittr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.3,NA,R (>= 3.4.0),NA,NA,"covr, knitr, rlang, rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.1
+mapplots,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.2,NA,R (>= 2.10.0),NA,NA,shapefiles,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+mapproj,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.11,NA,"R (>= 3.0.0), maps (>= 2.3-0)","stats, graphics",NA,NA,NA,Lucent Public License,NA,NA,NA,NA,yes,4.3.3
+maps,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.4.2.1,NA,R (>= 3.5.0),"graphics, utils",NA,"mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, rnaturalearth",NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+mashr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.79,NA,"R (>= 3.3.0), ashr (>= 2.2-22)","assertthat, utils, stats, plyr, rmeta, Rcpp (>= 1.0.8),
+mvtnorm, abind, softImpute","Rcpp, RcppArmadillo, RcppGSL (>= 0.3.8)","MASS, REBayes, corrplot (>= 0.90), testthat, kableExtra,
+knitr, rmarkdown, profmem, flashier, ebnm",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+MASS,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,7.3-60,NA,"R (>= 4.0), grDevices, graphics, stats, utils",methods,NA,"lattice, nlme, nnet, survival",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.1
+MAST,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.28.0,NA,"SingleCellExperiment (>= 1.2.0), R(>= 3.5)","Biobase, BiocGenerics, S4Vectors, data.table, ggplot2, plyr,
+stringr, abind, methods, parallel, reshape2, stats, stats4,
+graphics, utils, SummarizedExperiment(>= 1.5.3), progress,
+Matrix",NA,"knitr, rmarkdown, testthat, lme4(>= 1.0), blme, roxygen2(>
+6.0.0), numDeriv, car, gdata, lattice, GGally, GSEABase, NMF,
+TxDb.Hsapiens.UCSC.hg19.knownGene, rsvd, limma, RColorBrewer,
+BiocStyle, scater, DelayedArray, HDF5Array, zinbwave, dplyr",NA,GPL(>= 2),NA,NA,NA,NA,no,4.3.3
+mathjaxr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8-0,NA,NA,NA,NA,js,NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+Matrix,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6-5,recommended,"R (>= 3.5.0), methods","grDevices, graphics, grid, lattice, stats, utils",NA,"MASS, datasets, sfsmisc, tools","SparseM, graph",GPL (>= 2) | file LICENCE,NA,NA,NA,NA,yes,4.3.2
+MatrixGenerics,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.14.0,NA,matrixStats (>= 1.0.0),methods,NA,"Matrix, sparseMatrixStats, SparseArray, DelayedArray,
+DelayedMatrixStats, SummarizedExperiment, testthat (>= 2.1.0)",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.2
+MatrixModels,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5-4,NA,R (>= 3.6.0),"stats, methods, Matrix (>= 1.6-0), Matrix(< 1.8-0)",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+matrixStats,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.0,NA,R (>= 3.4.0),NA,NA,"utils, base64enc, ggplot2, knitr, markdown, microbenchmark,
+R.devices, R.rsp",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+matrixTests,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.3,NA,R (>= 3.2.2),matrixStats,NA,"PMCMRplus, car, cosinor, cosinor2, moments, nortest",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+mclust,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,6.1.1,NA,R (>= 3.0),"stats, utils, graphics, grDevices",NA,"knitr (>= 1.4), rmarkdown (>= 2.10), mix (>= 1.0), geometry
+(>= 0.4), MASS",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+MCMCprecision,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.0,NA,R (>= 3.0.0),"Rcpp, parallel, utils, stats, Matrix, combinat","Rcpp, RcppArmadillo, RcppProgress, RcppEigen","testthat, R.rsp",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+MEGENA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.7,NA,"R (>= 3.4.0),doParallel (>= 1.0.11),foreach (>= 1.4.4),igraph
+(>= 1.2.1)","Rcpp (>= 0.11.3),Matrix (>= 1.1-5),ggplot2 (>= 1.0.0),reshape
+(>= 0.8.5),fpc (>= 2.1-11),cluster (>= 2.0.7-1),ggrepel (>=
+0.5), ggraph (>= 1.0.1)","Rcpp,BH","knitr, rmarkdown",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+memoise,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.1,NA,NA,"rlang (>= 0.4.10), cachem",NA,"digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.1
+metadat,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4-0,NA,R (>= 4.0.0),"utils, tools, mathjaxr",NA,"metafor, numDeriv, BiasedUrn, dfoptim, igraph, ape, testthat,
+digest, lme4, clubSandwich, meta, netmeta, mvtnorm, gridExtra,
+rms, bayesmeta, ellipse",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+metafor,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.8-0,NA,"R (>= 4.0.0), methods, Matrix, metadat, numDeriv","stats, utils, graphics, grDevices, nlme, mathjaxr, pbapply,
+digest",NA,"lme4, pracma, minqa, nloptr, dfoptim, ucminf, lbfgsb3c,
+subplex, BB, Rsolnp, alabama, optimParallel, optimx,
+CompQuadForm, mvtnorm, BiasedUrn, Epi, survival, GLMMadaptive,
+glmmTMB, car, multcomp, gsl, sp, ape, boot, clubSandwich,
+crayon, R.rsp, testthat, rmarkdown, wildmeta, emmeans,
+estmeansd, metaBLUE, rstudioapi, glmulti, MuMIn, mice, Amelia,
+calculus",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+metapod,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10.1,NA,NA,Rcpp,Rcpp,"testthat, knitr, BiocStyle, rmarkdown",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+methods,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,"utils, stats",NA,codetools,NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+mgcv,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.9-3,recommended,"R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+mice,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.17.0,NA,R (>= 2.10.0),"broom, dplyr, glmnet, graphics, grDevices, lattice, mitml,
+nnet, Rcpp, rpart, stats, tidyr, utils","cpp11, Rcpp","broom.mixed, future, furrr, haven, knitr, literanger, lme4,
+MASS, miceadds, pan, parallelly, purrr, ranger, randomForest,
+rmarkdown, rstan, survival, testthat",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+microbenchmark,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.0,NA,R (>= 3.2.0),"graphics, stats",NA,"ggplot2, multcomp, RUnit",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+miloR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10.0,NA,"R (>= 4.0.0), edgeR","BiocNeighbors, BiocGenerics, SingleCellExperiment, Matrix (>=
+1.3-0), S4Vectors, stats, stringr, methods, igraph, irlba,
+cowplot, BiocParallel, BiocSingular, limma, ggplot2, tibble,
+matrixStats, ggraph, gtools, SummarizedExperiment, patchwork,
+tidyr, dplyr, ggrepel, ggbeeswarm, RColorBrewer, grDevices",NA,"testthat, MASS, mvtnorm, scater, scran, covr, knitr,
+rmarkdown, uwot, scuttle, BiocStyle, MouseGastrulationData,
+MouseThymusAgeing, magick, RCurl, curl, graphics",NA,GPL-3 + file LICENSE,NA,NA,NA,NA,no,4.3.3
+mime,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.13,NA,NA,tools,NA,NA,NA,GPL,NA,NA,NA,NA,yes,4.3.3
+miniUI,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.2,NA,NA,"shiny (>= 0.13), htmltools (>= 0.3), utils",NA,NA,NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+minqa,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.8,NA,NA,Rcpp (>= 0.9.10),Rcpp,NA,NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+mitml,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4-5,NA,NA,"pan, jomo, haven, grDevices, graphics, stats, methods, utils",NA,"mice, miceadds, Amelia, lme4, nlme, lavaan, geepack, glmmTMB,
+survival, knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+mixsqp,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3-54,NA,R (>= 3.3.0),"utils, stats, irlba, Rcpp (>= 0.12.15)","Rcpp, RcppArmadillo","testthat, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+MKmisc,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.9,NA,R(>= 3.5.0),"stats, utils, graphics, grDevices, RColorBrewer, robustbase,
+ggplot2, scales, limma",NA,"gplots, Amelia, knitr, rmarkdown, exactRankTests, foreach,
+parallel, doParallel",NA,LGPL-3,NA,NA,NA,NA,no,4.3.3
+mnormt,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.1,NA,R (>= 2.2.0),NA,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+modelr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.11,NA,R (>= 3.2),"broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble,
+tidyr (>= 0.8.0), tidyselect, vctrs",NA,"compiler, covr, ggplot2, testthat (>= 3.0.0)",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+modeltools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2-23,NA,"stats, stats4",methods,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+monaLisa,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8.1,NA,R (>= 4.1),"methods, stats, utils, grDevices, graphics, BiocGenerics,
+GenomicRanges, TFBSTools, Biostrings, IRanges, stabs, BSgenome,
+glmnet, S4Vectors, SummarizedExperiment, BiocParallel, grid,
+circlize, ComplexHeatmap (>= 2.11.1), XVector, GenomeInfoDb,
+tools, vioplot, RSQLite",NA,"JASPAR2020, JASPAR2024, BSgenome.Mmusculus.UCSC.mm10,
+TxDb.Mmusculus.UCSC.mm10.knownGene, knitr, rmarkdown, testthat,
+BiocStyle, gridExtra",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+motifmatchr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.24.0,NA,R (>= 3.3),"Matrix, Rcpp, methods, TFBSTools, Biostrings, BSgenome,
+S4Vectors, SummarizedExperiment, GenomicRanges, IRanges,
+Rsamtools, GenomeInfoDb","Rcpp, RcppArmadillo","testthat, knitr, rmarkdown, BSgenome.Hsapiens.UCSC.hg19",NA,GPL-3 + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+msigdb,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10.0,NA,R (>= 4.1),"ExperimentHub, utils, GSEABase, org.Mm.eg.db, org.Hs.eg.db,
+AnnotationDbi, methods, stats, AnnotationHub",NA,"singscore, vissE, knitr, prettydoc, BiocStyle, rmarkdown,
+testthat (>= 3.0.0), BiocFileCache, GO.db, stringr, limma",NA,CC BY 4.0,NA,NA,NA,NA,no,4.3.3
+msigdbr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,10.0.2,NA,R (>= 4.1),"assertthat, babelgene (>= 22.9), dplyr (>= 1.1.1), lifecycle,
+methods, rlang, tibble, tidyselect (>= 1.2.0)",NA,"knitr, msigdbdf, rmarkdown, roxygen2, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+multcompView,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1-10,NA,NA,grid,NA,"multcomp, pgirmess, MASS",NA,GPL,NA,NA,NA,NA,no,4.3.3
+multicool,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.1,NA,"methods, Rcpp (>= 0.11.2)",NA,Rcpp,NA,NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+munsell,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.1,NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+mvtnorm,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3-3,NA,R(>= 3.5.0),stats,NA,"qrng, numDeriv",NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+nabor,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.0,NA,R (>= 3.0.2),"Rcpp (>= 0.11.2), methods","Rcpp, RcppEigen (>= 0.3.2.2.0), BH (>= 1.54.0-4)","testthat, RANN",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+nebula,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.3,NA,R (>= 4.1),"Rcpp (>= 1.0.7), nloptr, stats, Matrix, methods, Rfast, trust,
+parallelly (>= 1.34.0), doFuture (>= 0.12.2), future (>=
+1.32.0), foreach (>= 1.5.2), doRNG (>= 1.8.6), Seurat,
+SingleCellExperiment","Rcpp, RcppEigen","knitr, utils, rmarkdown",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+nlme,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1-168,recommended,R (>= 3.6.0),"graphics, stats, utils, lattice",NA,"MASS, SASmixed",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+nloptr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.2.1,NA,NA,NA,NA,"knitr, rmarkdown, covr, tinytest",NA,LGPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+nnet,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,7.3-20,recommended,"R (>= 3.0.0), stats, utils",NA,NA,MASS,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+nortest,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0-4,NA,NA,stats,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+numDeriv,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2016.8-1.1,NA,R (>= 2.11.1),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+OmnipathR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.10.1,NA,R(>= 4.0),"checkmate, crayon, curl, digest, dplyr(>= 1.1.0), httr,
+igraph, jsonlite, later, logger, lubridate, magrittr, progress,
+purrr, rappdirs, readr(>= 2.0.0), readxl, rlang, rmarkdown,
+rvest, stats, stringi, stringr, tibble, tidyr, tidyselect,
+tools, utils, withr, xml2, yaml",NA,"BiocStyle, biomaRt, bookdown, dnet, ggplot2, ggraph,
+gprofiler2, knitr, mlrMBO, parallelMap, ParamHelpers,
+Rgraphviz, sigmajs, smoof, supraHex, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ontologyIndex,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.12,NA,R (>= 3.5.0),NA,NA,"knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+openssl,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3.2,NA,NA,askpass,NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+jsonlite, jose, sodium",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+optmatch,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.10.8,NA,R (>= 3.5.0),"Rcpp, dplyr, stats, tibble, methods, graphics, rlemon",Rcpp,"RItools, boot, biglm, survey, testthat (>= 0.11.0), roxygen2,
+brglm, arm, knitr, rmarkdown, markdown, pander, xtable,
+rrelaxiv, magrittr","CBPS, haven",MIT + file LICENSE,yes,no,NA,NA,yes,4.3.3
+ordinal,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2023.12-4.1,NA,"R (>= 2.13.0), stats, methods","ucminf, MASS, Matrix, numDeriv, nlme",NA,"lme4, nnet, xtable, testthat (>= 0.8), tools",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+org.Hs.eg.db,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.18.0,NA,"R (>= 2.7.0), methods, AnnotationDbi (>= 1.63.2)",NA,NA,"DBI, annotate, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+org.Mm.eg.db,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.18.0,NA,"R (>= 2.7.0), methods, AnnotationDbi (>= 1.63.2)",NA,NA,"DBI, annotate, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+pals,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10,NA,R (>= 4.1.0),"colorspace, dichromat, graphics, grDevices, mapproj, maps,
+methods, stats",NA,"classInt, ggplot2, knitr, latticeExtra, reshape2, rgl,
+rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+pan,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.9,NA,R (>= 2.10),NA,NA,"mitools, lme4",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+Pando,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.1,NA,R (>= 4.0.0),"tidyverse (>= 2.0.0), Seurat (>= 5.0.0), Signac (>= 1.12.0),
+Matrix (>= 1.5-0), MatrixGenerics (>= 1.10.0), ggplot2, IRanges
+(>= 2.32.0), GenomicRanges, motifmatchr, glmnetUtils,
+bayestestR, ggpointdensity, ggraph, tidygraph, pals, patchwork,
+TFBSTools, foreach, sparseMatrixStats (>= 1.10.0), irlba, uwot,
+grr",NA,"rmarkdown, testthat, reticulate, xgboost, brms",NA,MIT,NA,NA,NA,NA,no,4.3.3
+parallel,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,"tools, compiler",NA,methods,"snow, Rmpi",Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+parallelly,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.43.0,NA,NA,"parallel, tools, utils",NA,"commonmark, base64enc",NA,LGPL (>= 2.1),NA,NA,NA,NA,yes,4.3.3
+parameters,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.25.0,NA,R (>= 3.6),"bayestestR (>= 0.15.2), datawizard (>= 1.0.2), insight (>=
+1.2.0), graphics, methods, stats, utils",NA,"AER, afex, aod, BayesFactor (>= 0.9.12-4.7), BayesFM, bbmle,
+betareg, BH, biglm, blme, boot, brglm2, brms, broom,
+broom.mixed, cAIC4, car, carData, cgam, ClassDiscovery,
+clubSandwich, cluster, cobalt, coda, coxme, cplm, curl, dbscan,
+did, distributional, domir (>= 0.2.0), drc, DRR, effectsize (>=
+0.8.6), EGAnet, emmeans (>= 1.7.0), epiR, estimatr, factoextra,
+FactoMineR, faraway, fastICA, fixest, fpc, gam, gamlss, gee,
+geepack, ggplot2, GLMMadaptive, glmmTMB (>= 1.1.10),
+glmtoolbox, GPArotation, gt, haven, httr2, Hmisc, ivreg, knitr,
+lavaan, lfe, lm.beta, lme4, lmerTest, lmtest, logistf, logitr,
+logspline, lqmm, M3C, marginaleffects (>= 0.25.0), modelbased
+(>= 0.9.0), MASS, Matrix, mclogit, mclust, MCMCglmm, mediation,
+merDeriv, metaBMA, metafor, mfx, mgcv, mice (>= 3.17.0), mmrm,
+multcomp, MuMIn, NbClust, nFactors, nestedLogit, nlme, nnet,
+openxlsx, ordinal, panelr, pbkrtest, PCDimension, performance
+(>= 0.12.0), plm, PMCMRplus, poorman, posterior, PROreg (>=
+1.3.0), pscl, psych, pvclust, quantreg, randomForest,
+RcppEigen, rmarkdown, rms, rstan, rstanarm, sandwich, see (>=
+0.8.1), serp, sparsepca, survey, survival, svylme, testthat (>=
+3.2.1), tidyselect, tinytable (>= 0.1.0), TMB, truncreg,
+vdiffr, VGAM, WeightIt (>= 1.2.0), withr, WRS2",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+patchwork,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.0,NA,NA,"ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
+graphics, rlang (>= 1.0.0), cli, farver",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
+2.1.0), vdiffr, covr, png, gt (>= 0.11.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+pathview,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.42.0,NA,R (>= 3.5.0),"KEGGgraph, XML, Rgraphviz, graph, png, AnnotationDbi,
+org.Hs.eg.db, KEGGREST, methods, utils",NA,"gage, org.Mm.eg.db, RUnit, BiocGenerics",NA,GPL (>=3.0),NA,NA,NA,NA,no,4.3.3
+pbapply,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7-2,NA,R (>= 3.2.0),parallel,NA,"shiny, future, future.apply",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+pbkrtest,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.4,NA,"R (>= 4.2.0), lme4 (>= 1.1.31)","broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy
+(>= 4.6.22)",NA,"markdown, knitr",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+pbmcapply,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.1,NA,"utils, parallel",NA,NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+pcaMethods,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.94.0,NA,"Biobase, methods","BiocGenerics, Rcpp (>= 0.11.3), MASS",Rcpp,"matrixStats, lattice, ggplot2",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+performance,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.13.0,NA,R (>= 3.6),"bayestestR (>= 0.15.0), insight (>= 1.0.0), datawizard (>=
+0.13.0), stats, utils",NA,"AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
+blavaan, boot, brms, car, carData, CompQuadForm, correlation,
+cplm, dagitty, dbscan, DHARMa (>= 0.4.7), estimatr, fixest,
+flextable, forecast, ftExtra, gamm4, ggdag, glmmTMB (>=
+1.1.10), graphics, Hmisc, httr2, ICS, ICSOutlier, ISLR, ivreg,
+lavaan, lme4, lmtest, loo, MASS, Matrix, mclogit, mclust,
+metadat, metafor, mgcv, mlogit, multimode, nestedLogit, nlme,
+nonnest2, ordinal, parallel, parameters (>= 0.22.0), patchwork,
+pscl, psych, quantreg, qqplotr (>= 0.0.6), randomForest,
+RcppEigen, rempsyc, rmarkdown, rstanarm, rstantools, sandwich,
+see (>= 0.9.0), survey, survival, testthat (>= 3.2.1), tweedie,
+VGAM, withr (>= 3.0.0)",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+pheatmap,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.12,NA,R (>= 2.0),"grid, RColorBrewer, scales, gtable, stats, grDevices, graphics",NA,NA,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+pillar,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10.2,NA,NA,"cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>=
+1.1.0), utils, vctrs (>= 0.5.0)",NA,"bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+tibble, units (>= 0.7.2), vdiffr, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+pkgbuild,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.7,NA,R (>= 3.5),"callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6",NA,"covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0),
+withr (>= 2.3.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+pkgconfig,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.3,NA,NA,utils,NA,"covr, testthat, disposables (>= 1.0.3)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.1
+pkgdown,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.2,NA,R (>= 4.0.0),"bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>=
+1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2
+(>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg (>=
+1.4.0), rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker,
+withr (>= 2.4.3), xml2 (>= 1.3.1), yaml",NA,"covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools,
+htmlwidgets, knitr (>= 1.50), lifecycle, magick, methods,
+pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles,
+sass, testthat (>= 3.1.3), tools",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+pkgload,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.0,NA,R (>= 3.4.0),"cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild,
+processx, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)",NA,"bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi,
+testthat (>= 3.2.1.1), usethis",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+plogr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.0,NA,NA,NA,NA,Rcpp,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.1
+plotly,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.10.4,NA,"R (>= 3.2.0), ggplot2 (>= 3.0.0)","tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr,
+digest, viridisLite, base64enc, htmltools (>= 0.3.6),
+htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer,
+dplyr, vctrs, tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10),
+crosstalk, purrr, data.table, promises",NA,"MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat,
+knitr, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown,
+Cairo, broom, webshot, listviewer, dendextend, sf, png,
+IRdisplay, processx, plotlyGeoAssets, forcats, withr,
+palmerpenguins, rversions, reticulate, rsvg",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+plotrix,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.8-4,NA,R (>= 3.5.0),"grDevices, graphics, stats, utils",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+plyr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8.9,NA,R (>= 3.1.0),Rcpp (>= 0.11.0),Rcpp,"abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.1
+png,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1-8,NA,R (>= 2.9.0),NA,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.1
+polyclip,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10-7,NA,R (>= 3.5.0),NA,NA,NA,NA,BSL,NA,NA,NA,NA,yes,4.3.3
+polynom,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4-1,NA,NA,"stats, graphics",NA,"knitr, rmarkdown",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+posterior,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6.1,NA,R (>= 3.2.0),"methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>=
+3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional,
+parallel, matrixStats",NA,"testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8),
+randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr,
+knitr, ggplot2, ggdist, rmarkdown",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,no,4.3.3
+poweRlaw,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.0,NA,R (>= 3.4.0),"methods, parallel, pracma, stats, utils",NA,"covr, knitr, testthat",NA,GPL-2 | GPL-3,NA,NA,NA,NA,no,4.3.3
+prabclus,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3-4,NA,"R (>= 2.10), MASS, mclust",NA,NA,"spdep, spatialreg, bootstrap, foreign, mvtnorm",NA,GPL,NA,NA,NA,NA,no,4.3.3
+pracma,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.4.4,NA,R (>= 3.1.0),"graphics, grDevices, stats, utils",NA,"NlcOptim, quadprog",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+praise,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.0,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+preprocessCore,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.64.0,NA,NA,stats,NA,NA,NA,LGPL (>= 2),NA,NA,NA,NA,yes,4.3.2
+presto,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.0,NA,"R (>= 3.4.0), Rcpp, data.table","dplyr, methods, tidyr, purrr, tibble, Matrix, rlang, stats,
+utils","Rcpp, RcppArmadillo","knitr, rmarkdown, testthat, Seurat, SingleCellExperiment,
+SummarizedExperiment, broom, BiocStyle, DESeq2",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+prettyunits,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.0,NA,R(>= 2.10),NA,NA,"codetools, covr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.1
+princurve,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.6,NA,R (>= 3.0),"stats, graphics, grDevices, Rcpp",Rcpp,"devtools, testthat",NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+pROC,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.18.5,NA,R (>= 2.14),"methods, plyr, Rcpp (>= 0.11.1)",Rcpp,"microbenchmark, tcltk, MASS, logcondens, doParallel,
+testthat, vdiffr, ggplot2, rlang",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+processx,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.8.6,NA,R (>= 3.4.0),"ps (>= 1.2.0), R6, utils",NA,"callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl,
+debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0),
+webfakes, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+profvis,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.0,NA,R (>= 4.0),"htmlwidgets (>= 0.3.2), rlang (>= 1.1.0), vctrs",NA,"htmltools, knitr, rmarkdown, shiny, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+progress,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.3,NA,R (>= 3.6),"crayon, hms, prettyunits, R6",NA,"Rcpp, testthat (>= 3.0.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+progressr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.15.1,NA,R (>= 3.5.0),"digest, utils",NA,"graphics, tcltk, beepr, cli, crayon, pbmcapply, progress,
+purrr, foreach, plyr, doFuture, future, future.apply, furrr,
+ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc,
+tools",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+promises,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.2,NA,NA,"fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang,
+stats","later, Rcpp","future (>= 1.21.0), knitr, purrr, rmarkdown, spelling,
+testthat, vembedr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+ProtGenerics,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.34.0,NA,methods,NA,NA,testthat,NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+proto,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.0,NA,NA,NA,NA,"testthat, covr",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+proxy,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4-27,NA,R (>= 3.4.0),"stats, utils",NA,cba,NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+ps,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.9.1,NA,R (>= 3.4),utils,NA,"callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
+rlang, testthat (>= 3.0.0), webfakes, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+psych,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.5.3,NA,NA,"mnormt,parallel,stats,graphics,grDevices,methods,lattice,nlme,GPArotation",NA,"psychTools, lavaan, lme4, Rcsdp, graph, knitr, Rgraphviz",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+purrr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.4,NA,R (>= 4.0),"cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
+rlang (>= 1.1.1), vctrs (>= 0.6.3)",cli,"covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,
+testthat (>= 3.0.0), tibble, tidyselect",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+pwr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3-0,NA,NA,"stats, graphics",NA,"ggplot2, scales, knitr, rmarkdown",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+qlcMatrix,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.9.8,NA,"Matrix (>= 1.2), R (>= 3.2), slam (>= 0.1-32), sparsesvd","methods, docopt",NA,"MASS, knitr, rmarkdown",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+qs,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.27.3,NA,R (>= 3.0.2),"Rcpp, RApiSerialize (>= 0.1.4), stringfish (>= 0.15.1)","Rcpp, RApiSerialize, stringfish, BH","knitr, rmarkdown, testthat, dplyr, data.table",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+quantreg,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,6.1,NA,"R (>= 3.5), stats, SparseM","methods, graphics, Matrix, MatrixModels, survival, MASS",NA,"interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+QuickJSR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7.0,NA,NA,NA,NA,"knitr, rmarkdown, tinytest",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+qvalue,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.34.0,NA,R(>= 2.10),"splines, ggplot2, grid, reshape2",NA,knitr,NA,LGPL,NA,NA,NA,NA,no,4.3.3
+R.methodsS3,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8.2,NA,R (>= 2.13.0),utils,NA,codetools,NA,LGPL (>= 2.1),NA,NA,NA,NA,no,4.3.1
+R.oo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.27.0,NA,"R (>= 2.13.0), R.methodsS3 (>= 1.8.2)","methods, utils",NA,tools,NA,LGPL (>= 2.1),NA,NA,NA,NA,no,4.3.3
+R.utils,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.13.0,NA,"R (>= 2.14.0), R.oo","methods, utils, tools, R.methodsS3",NA,"datasets, digest (>= 0.6.10)",NA,LGPL (>= 2.1),NA,NA,NA,NA,no,4.3.3
+R6,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.6.1,NA,R (>= 3.6),NA,NA,"lobstr, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+ragg,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.0,NA,NA,"systemfonts (>= 1.0.3), textshaping (>= 0.3.0)","systemfonts, textshaping","covr, graphics, grid, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+ranger,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.17.0,NA,R (>= 3.1),"Rcpp (>= 0.11.2), Matrix","Rcpp, RcppEigen","survival, testthat",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+RANN,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.6.2,NA,NA,NA,NA,testthat,NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+RApiSerialize,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.4,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+rappdirs,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.3,NA,R (>= 3.2),NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+rbibutils,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3,NA,R (>= 2.10),"utils, tools",NA,testthat,NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+rcmdcheck,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.0,NA,NA,"callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),
+digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>=
+1.1.1), utils, withr, xopen",NA,"covr, knitr, mockery, processx, ps, rmarkdown, svglite,
+testthat, webfakes",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+RColorBrewer,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1-3,NA,R (>= 2.0.0),NA,NA,NA,NA,Apache License 2.0,NA,NA,NA,NA,no,4.3.1
+Rcpp,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.14,NA,NA,"methods, utils",NA,"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RcppAnnoy,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.0.22,NA,R (>= 3.1),"methods, Rcpp",Rcpp,tinytest,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RcppArmadillo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,14.4.2-1,NA,R (>= 3.3.0),"Rcpp (>= 1.0.12), stats, utils, methods",Rcpp,"tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RcppEigen,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.4.0.2,NA,R (>= 3.6.0),"Rcpp (>= 0.11.0), stats, utils",Rcpp,"Matrix, inline, tinytest, pkgKitten, microbenchmark",NA,GPL (>= 2) | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+RcppGSL,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.13,NA,NA,"Rcpp (>= 0.11.0), stats",Rcpp,tinytest,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RcppHNSW,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6.0,NA,NA,"methods, Rcpp (>= 0.11.3)",Rcpp,"covr, testthat",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+RcppML,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.7,NA,NA,"Rcpp, Matrix, methods, stats","Rcpp, RcppEigen","knitr, rmarkdown, testthat (>= 3.0.0)",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RcppParallel,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,5.1.10,NA,R (>= 3.0.2),NA,NA,"Rcpp, RUnit, knitr, rmarkdown",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+RcppProgress,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.2,NA,NA,NA,NA,"RcppArmadillo, devtools, roxygen2, testthat",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+RcppRoll,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.1,NA,R (>= 2.15.1),Rcpp,Rcpp,"zoo, testthat",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RcppTOML,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.3,NA,R (>= 3.3.0),Rcpp (>= 1.0.8),Rcpp,tinytest,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RcppZiggurat,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.8,NA,R (>= 3.0.0),"Rcpp, parallel, graphics, stats, utils","Rcpp, RcppGSL","rbenchmark, microbenchmark, lattice, ggplot2",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RCurl,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.98-1.17,NA,"R (>= 3.4.0), methods",bitops,NA,XML,NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+Rdpack,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.6.4,NA,"R (>= 2.15.0), methods","tools, utils, rbibutils (>= 1.3)",NA,"grDevices, testthat, rstudioapi, rprojroot, gbRd",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+reactome.db,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.86.2,NA,"R (>= 2.7.0), methods, AnnotationDbi (>= 1.33.0)","methods, AnnotationDbi",NA,RSQLite,NA,CC BY 4.0,NA,NA,NA,NA,no,4.3.3
+ReactomePA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.46.0,NA,R (>= 3.4.0),"AnnotationDbi, DOSE (>= 3.5.1), enrichplot, ggplot2 (>=
+3.3.5), ggraph, reactome.db, igraph, graphite, gson",NA,"BiocStyle, clusterProfiler, knitr, rmarkdown, org.Hs.eg.db,
+prettydoc, testthat",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+readr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.5,NA,R (>= 3.6),"cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>=
+0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)","cpp11, tzdb (>= 0.1.1)","covr, curl, datasets, knitr, rmarkdown, spelling, stringi,
+testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+readxl,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.5,NA,R (>= 3.6),"cellranger, tibble (>= 2.0.1), utils","cpp11 (>= 0.4.0), progress","covr, knitr, rmarkdown, testthat (>= 3.1.6), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+reformulas,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.1,NA,NA,"stats, methods, Matrix, Rdpack",NA,"lme4, tinytest, glmmTMB",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+remaCor,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.0.18,NA,"R (>= 3.6.0), ggplot2, methods","mvtnorm, grid, reshape2, compiler, Rcpp, EnvStats, Rdpack,
+stats","Rcpp, RcppArmadillo","knitr, RUnit, clusterGeneration, metafor",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+rematch,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.0,NA,NA,NA,NA,"covr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+rematch2,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.2,NA,NA,tibble,NA,"covr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+remotes,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.5.0,NA,R (>= 3.0.0),"methods, stats, tools, utils",NA,"brew, callr, codetools, covr, curl, git2r (>= 0.23.0), knitr,
+mockery, pingr, pkgbuild (>= 1.0.1), rmarkdown, rprojroot,
+testthat (>= 3.0.0), webfakes, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+reprex,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.1,NA,R (>= 3.6),"callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue,
+knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown,
+rstudioapi, utils, withr (>= 2.3.0)",NA,"covr, fortunes, miniUI, rprojroot, sessioninfo, shiny,
+spelling, styler (>= 1.2.0), testthat (>= 3.2.1)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+reshape,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.8.9,NA,R (>= 2.6.1),plyr,NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+reshape2,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.4,NA,R (>= 3.1),"plyr (>= 1.8.1), Rcpp, stringr",Rcpp,"covr, lattice, testthat (>= 0.8.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.1
+ResidualMatrix,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.12.0,NA,NA,"methods, Matrix, S4Vectors, DelayedArray",NA,"testthat, BiocStyle, knitr, rmarkdown, BiocSingular",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+restfulr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.0.15,NA,"R (>= 3.4.0), methods","XML, RCurl, rjson, S4Vectors (>= 0.13.15), yaml",NA,"getPass, rsolr, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.1
+reticulate,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.42.0,NA,R (>= 3.5),"Matrix, Rcpp (>= 1.0.7), RcppTOML, graphics, here, jsonlite,
+methods, png, rappdirs, utils, rlang, withr",Rcpp,"callr, knitr, glue, cli, rmarkdown, pillar, testthat",NA,Apache License 2.0,NA,NA,NA,NA,yes,4.3.3
+Rfast,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.5.1,NA,"R (>= 3.5.0), Rcpp (>= 0.12.3), zigg, RcppParallel",NA,"Rcpp (>= 0.12.3), RcppArmadillo, RcppParallel, zigg",philentropy,NA,GPL (>= 2.0),NA,NA,NA,NA,yes,4.3.3
+rgl,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.18,NA,R (>= 3.6.0),"graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0),
+htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6,
+base64enc, mime",NA,"MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>=
+1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3),
+tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
+0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont,
+shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8,
+chromote, jpeg, png",waldo,GPL,NA,NA,NA,NA,yes,4.3.3
+Rgraphviz,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.46.0,NA,"R (>= 2.6.0), methods, utils, graph, grid","stats4, graphics, grDevices",NA,"RUnit, BiocGenerics, XML",NA,EPL,NA,NA,NA,NA,yes,4.3.3
+rhandsontable,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.8,NA,NA,"jsonlite, htmlwidgets (>= 0.3.3), magrittr, methods, utils",NA,"knitr, rmarkdown, shiny (>= 0.13), miniUI (>= 0.1.1),
+rstudioapi (>= 0.6), htmltools",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+rhdf5,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.46.1,NA,"R (>= 4.0.0), methods","Rhdf5lib (>= 1.13.4), rhdf5filters, S4Vectors",Rhdf5lib,"bit64, BiocStyle, knitr, rmarkdown, testthat, bench, dplyr,
+ggplot2, mockery, BiocParallel",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.2
+rhdf5filters,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.14.1,NA,NA,NA,Rhdf5lib,"BiocStyle, knitr, rmarkdown, tinytest, rhdf5 (>= 2.34.0)",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.2
+Rhdf5lib,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.24.2,NA,R (>= 4.2.0),NA,NA,"BiocStyle, knitr, rmarkdown, tinytest, mockery",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+RhpcBLASctl,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.23-42,NA,NA,NA,NA,NA,NA,AGPL-3,NA,NA,NA,NA,yes,4.3.3
+Rhtslib,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.4.1,NA,NA,zlibbioc,zlibbioc,"knitr, rmarkdown, BiocStyle",NA,LGPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+rjson,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.23,NA,R (>= 4.0.0),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+rlang,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.6,NA,R (>= 3.5.0),utils,NA,"cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr,
+magrittr, methods, pillar, pkgload, rmarkdown, stats, testthat
+(>= 3.2.0), tibble, usethis, vctrs (>= 0.2.3), withr",winch,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+rlemon,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.1,NA,R (>= 2.10),Rcpp (>= 1.0.5),Rcpp,"testthat, covr",NA,BSL-1.0,NA,NA,NA,NA,yes,4.3.3
+RLRsim,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1-8,NA,R (>= 2.14.0),"Rcpp (>= 0.11.1), lme4 (>= 1.1), mgcv, nlme",Rcpp,NA,"SemiPar, lmerTest",GPL,NA,NA,NA,NA,yes,4.3.3
+rmarkdown,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.29,NA,R (>= 3.0),"bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>=
+0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>=
+1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>=
+0.36), yaml (>= 2.1.19)",NA,"digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex
+(>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=
+3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+rmeta,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.0,NA,NA,"grid, stats, graphics",NA,NA,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+Rmpfr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0-0,NA,"gmp (>= 0.6-1), R (>= 3.6.0)","stats, utils, methods",NA,"DPQmpfr, MASS, Bessel, polynom, sfsmisc (>= 1.1-14)","dfoptim, pracma, DPQ",GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+rngtools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.2,NA,"R (>= 3.2.0), methods","digest, utils, stats, parallel",NA,"covr, RUnit, testthat",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+robustbase,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.99-4-1,NA,R (>= 3.5.0),"stats, graphics, utils, methods, DEoptimR",NA,"grid, MASS, lattice, boot, cluster, Matrix, robust,
+fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
+reshape2, sfsmisc, catdata, doParallel, foreach, skewt","robustX, rrcov, matrixStats, quantreg, Hmisc",GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+ROCR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0-11,NA,R (>= 3.6),"methods, graphics, grDevices, gplots, stats",NA,"testthat, knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+roxygen2,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,7.3.2,NA,R (>= 3.6),"brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr,
+methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2),
+rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr,
+xml2",cpp11,"covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>=
+3.1.2), yaml",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+rpart,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.1.24,recommended,"R (>= 2.15.0), graphics, stats, grDevices",NA,NA,survival,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+rprojroot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.4,NA,R (>= 3.0.0),NA,NA,"covr, knitr, lifecycle, mockr, rlang, rmarkdown, testthat (>=
+3.0.0), withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+Rsamtools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.18.0,NA,"methods, GenomeInfoDb (>= 1.1.3), GenomicRanges (>= 1.31.8),
+Biostrings (>= 2.47.6), R (>= 3.5.0)","utils, BiocGenerics (>= 0.25.1), S4Vectors (>= 0.17.25),
+IRanges (>= 2.13.12), XVector (>= 0.19.7), zlibbioc, bitops,
+BiocParallel, stats","Rhtslib (>= 1.99.3), S4Vectors, IRanges, XVector, Biostrings","GenomicAlignments, ShortRead (>= 1.19.10), GenomicFeatures,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg18.knownGene, RNAseqData.HNRNPC.bam.chr14,
+BSgenome.Hsapiens.UCSC.hg19, RUnit, BiocStyle, knitr",NA,Artistic-2.0 | file LICENSE,NA,NA,NA,NA,yes,4.3.2
+Rsolnp,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.16,NA,R (>= 2.10.0),"truncnorm, parallel, stats",NA,NA,NA,GPL,NA,NA,NA,NA,no,4.3.3
+RSpectra,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.16-2,NA,R (>= 3.0.2),"Matrix (>= 1.1-0), Rcpp (>= 0.11.5)","Rcpp, RcppEigen (>= 0.3.3.3.0)","knitr, rmarkdown, prettydoc",NA,MPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+RSQLite,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3.9,NA,R (>= 3.1.0),"bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods,
+pkgconfig, rlang","plogr (>= 0.2.0), cpp11 (>= 0.4.0)","callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr,
+magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2",NA,LGPL (>= 2.1),NA,NA,NA,NA,yes,4.3.3
+rstan,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.32.7,NA,"R (>= 3.4.0), StanHeaders (>= 2.32.0)","methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp
+(>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild
+(>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)","Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0),
+StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)","testthat (>= 3.0.4), parallel, KernSmooth, shinystan,
+bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr,
+coda, V8",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+rstantools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.4.0,NA,NA,"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)",NA,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
+knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown,
+rstudioapi",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+rstatix,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.7.2,NA,R (>= 3.3.0),"stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
+(>= 0.3.1), tibble (>= 2.1.3), dplyr (>= 0.7.1), magrittr,
+corrplot, tidyselect (>= 1.2.0), car, generics (>= 0.0.2)",NA,"knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
+testthat, spelling",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+rstudioapi,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.17.1,NA,NA,NA,NA,"testthat, knitr, rmarkdown, clipr, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+rsvd,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.5,NA,R (>= 4.0.0),Matrix,NA,"ggplot2, testthat",NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+rtracklayer,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.62.0,NA,"R (>= 3.5.0), methods, GenomicRanges (>= 1.37.2)","XML (>= 1.98-0), BiocGenerics (>= 0.35.3), S4Vectors (>=
+0.23.18), IRanges (>= 2.13.13), XVector (>= 0.19.7),
+GenomeInfoDb (>= 1.15.2), Biostrings (>= 2.47.6), zlibbioc,
+RCurl (>= 1.4-2), Rsamtools (>= 1.31.2), GenomicAlignments (>=
+1.15.6), BiocIO, tools, restfulr (>= 0.0.13)","S4Vectors, IRanges, XVector","BSgenome (>= 1.33.4), humanStemCell, microRNA (>= 1.1.1),
+genefilter, limma, org.Hs.eg.db, hgu133plus2.db,
+GenomicFeatures, BSgenome.Hsapiens.UCSC.hg19,
+TxDb.Hsapiens.UCSC.hg19.knownGene, RUnit",NA,Artistic-2.0 + file LICENSE,NA,NA,NA,NA,yes,4.3.2
+Rtsne,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.17,NA,NA,"Rcpp (>= 0.11.0), stats",Rcpp,"irlba, testthat",NA,file LICENSE,yes,NA,NA,NA,yes,4.3.3
+rversions,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.2,NA,NA,"curl, utils, xml2 (>= 1.0.0)",NA,"covr, mockery, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+rvest,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.4,NA,R (>= 3.6),"cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr,
+rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)",NA,"chromote, covr, knitr, R6, readr, repurrrsive, rmarkdown,
+spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+S4Arrays,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.1,NA,"R (>= 4.3.0), methods, Matrix, abind, BiocGenerics (>=
+0.45.2), S4Vectors, IRanges","stats, crayon",S4Vectors,"BiocParallel, SparseArray (>= 0.0.4), DelayedArray, testthat,
+knitr, rmarkdown, BiocStyle",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+S4Vectors,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.40.2,NA,"R (>= 4.0.0), methods, utils, stats, stats4, BiocGenerics (>=
+0.37.0)",NA,NA,"IRanges, GenomicRanges, SummarizedExperiment, Matrix,
+DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle,
+knitr",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.2
+safe,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.42.0,NA,"R (>= 2.4.0), AnnotationDbi, Biobase, methods, SparseM",NA,NA,"GO.db, PFAM.db, reactome.db, hgu133a.db, breastCancerUPP,
+survival, foreach, doRNG, Rgraphviz, GOstats",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+sass,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.10,NA,NA,"fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6,
+rappdirs",NA,"testthat, knitr, rmarkdown, withr, shiny, curl",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+SAVER,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.1.3,NA,R (>= 3.0.1),"glmnet, foreach, methods, iterators, doParallel, Matrix",NA,"knitr, rmarkdown",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+ScaledMatrix,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10.0,NA,NA,"methods, Matrix, S4Vectors, DelayedArray",NA,"testthat, BiocStyle, knitr, rmarkdown, BiocSingular,
+DelayedMatrixStats",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+scales,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.0,NA,R (>= 4.1),"cli, farver (>= 2.0.3), glue, labeling, lifecycle, R6,
+RColorBrewer, rlang (>= 1.1.0), viridisLite",NA,"bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+scater,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.30.1,NA,"SingleCellExperiment, scuttle, ggplot2","stats, utils, methods, Matrix, BiocGenerics, S4Vectors,
+SummarizedExperiment, DelayedArray, MatrixGenerics, beachmat,
+BiocNeighbors, BiocSingular, BiocParallel, rlang, ggbeeswarm,
+viridis, Rtsne, RColorBrewer, RcppML, uwot, pheatmap, ggrepel,
+ggrastr",NA,"BiocStyle, snifter, densvis, cowplot, biomaRt, knitr,
+scRNAseq, robustbase, rmarkdown, testthat, Biobase, scattermore",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+scattermore,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2,NA,NA,"ggplot2, scales, grid, grDevices, graphics",NA,"covr, knitr, rmarkdown, testthat",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+scatterpie,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.4,NA,"R (>= 4.1.0), ggplot2","ggforce, rlang, ggfun, stats, tidyr, dplyr, utils, yulab.utils
+(>= 0.1.6)",NA,"knitr, rmarkdown, prettydoc, maps, scales, cli",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+scatterplot3d,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3-44,NA,R (>= 2.7.0),"grDevices, graphics, stats",NA,NA,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+sccomp,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7.15,NA,R (>= 4.2.0),"methods, Rcpp (>= 0.12.0), RcppParallel (>= 5.0.1), rstantools
+(>= 2.1.1), rstan (>= 2.26.0), SeuratObject,
+SingleCellExperiment, parallel, dplyr, tidyr, purrr, magrittr,
+rlang, tibble, boot, lifecycle, stats, tidyselect, utils,
+ggplot2, ggrepel, patchwork, forcats, readr, scales, stringr,
+glue","BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0),
+RcppParallel (>= 5.0.1), rstan (>= 2.26.0), StanHeaders (>=
+2.26.0)","BiocStyle, testthat (>= 3.0.0), markdown, knitr, loo,
+tidyseurat, tidySingleCellExperiment, prettydoc","furrr, extraDistr",GPL-3,NA,NA,NA,NA,yes,4.3.3
+sccore,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.6,NA,R (>= 3.5.0),"dplyr, ggplot2, ggrepel, graphics, grDevices, igraph, irlba,
+magrittr, Matrix, methods, parallel, pbmcapply, pROC, Rcpp,
+rlang, scales, Seurat, stats, tibble, utils, uwot, withr","Rcpp, RcppArmadillo, RcppProgress, RcppEigen","ggrastr (>= 0.1.7), jsonlite, rmumps, testthat",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+scMEGA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.2,NA,R (>= 4.3.0),"Rcpp, ArchR, SeuratObject, dplyr, optmatch, ggplot2, cowplot,
+ggpubr, destiny, pracma, igraph, glue, ComplexHeatmap, IRanges,
+Matrix, circlize, ggrepel, matrixStats, nabor, stringr,
+textshape, tidyr, GenomicRanges, S4Vectors,
+SummarizedExperiment, ggraph, factoextra",Rcpp,"knitr, rmarkdown, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+scPower,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.4,NA,R (>= 3.5.0),"Matrix, pwr, MKmisc, reshape2, HardyWeinberg, plotly, ggplot2,
+shiny, shinydashboard (>= 0.7.1), shinydashboardPlus (>=
+2.0.1), shinyjs, shinyBS",NA,"knitr, rmarkdown, ggpubr, data.table, viridis, RColorBrewer,
+gridExtra, dplyr",NA,GNU GPLv3,NA,NA,NA,NA,no,4.3.3
+scran,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.30.2,NA,"SingleCellExperiment, scuttle","SummarizedExperiment, S4Vectors, BiocGenerics, BiocParallel,
+Rcpp, stats, methods, utils, Matrix, edgeR, limma, igraph,
+statmod, DelayedArray, DelayedMatrixStats, BiocSingular,
+bluster, metapod, dqrng, beachmat","Rcpp, beachmat, BH, dqrng, scuttle","testthat, BiocStyle, knitr, rmarkdown, HDF5Array, scRNAseq,
+dynamicTreeCut, ResidualMatrix, ScaledMatrix, DESeq2, monocle,
+Biobase, pheatmap, scater",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+sctransform,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.2,NA,R (>= 3.6.0),"dplyr, magrittr, MASS, Matrix (>= 1.5-0), methods,
+future.apply, future, ggplot2, reshape2, rlang, gridExtra,
+matrixStats","RcppArmadillo, Rcpp (>= 0.11.0)","irlba, testthat, knitr",glmGamPoi,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+scuttle,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.12.0,NA,SingleCellExperiment,"methods, utils, stats, Matrix, Rcpp, BiocGenerics, S4Vectors,
+BiocParallel, GenomicRanges, SummarizedExperiment,
+DelayedArray, DelayedMatrixStats, beachmat","Rcpp, beachmat","BiocStyle, knitr, scRNAseq, rmarkdown, testthat, scran",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+selectr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4-2,NA,R (>= 3.0),"methods, stringr, R6",NA,"testthat, XML, xml2",NA,BSD_3_clause + file LICENCE,NA,NA,NA,NA,no,4.3.3
+seqLogo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.68.0,NA,"R (>= 4.2), methods, grid","stats4, grDevices",NA,"knitr, BiocStyle, rmarkdown, testthat",NA,LGPL (>= 2),NA,NA,NA,NA,no,4.3.2
+sessioninfo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.3,NA,R (>= 3.4),"cli (>= 3.1.0), tools, utils",NA,"callr, covr, gh, reticulate, rmarkdown, testthat (>= 3.2.0),
+withr",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+Seurat,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,5.3.0,NA,"R (>= 4.0.0), methods, SeuratObject (>= 5.0.2)","cluster, cowplot, fastDummies, fitdistrplus, future,
+future.apply, generics (>= 0.1.3), ggplot2 (>= 3.3.0), ggrepel,
+ggridges, graphics, grDevices, grid, httr, ica, igraph, irlba,
+jsonlite, KernSmooth, leidenbase, lifecycle, lmtest, MASS,
+Matrix (>= 1.5-0), matrixStats, miniUI, patchwork, pbapply,
+plotly (>= 4.9.0), png, progressr, RANN, RColorBrewer, Rcpp (>=
+1.0.7), RcppAnnoy (>= 0.0.18), RcppHNSW, reticulate, rlang,
+ROCR, RSpectra, Rtsne, scales, scattermore (>= 1.2),
+sctransform (>= 0.4.1), shiny, spatstat.explore, spatstat.geom,
+stats, tibble, tools, utils, uwot (>= 0.1.10)","Rcpp (>= 0.11.0), RcppEigen, RcppProgress","ape, arrow, Biobase, BiocGenerics, BPCells, data.table,
+DESeq2, DelayedArray, enrichR, GenomicRanges, GenomeInfoDb,
+glmGamPoi, ggrastr, harmony, hdf5r, IRanges, limma, MAST,
+metap, mixtools, monocle, presto, rsvd, R.utils, Rfast2,
+rtracklayer, S4Vectors, sf (>= 1.0.0), SingleCellExperiment,
+SummarizedExperiment, testthat, VGAM",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+SeuratData,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.2.9001,NA,R (>= 3.5.0),"cli, crayon, rappdirs, stats, utils, SeuratObject (>= 5.0.0)",NA,Azimuth,NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+SeuratDisk,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.0.0.9021,NA,R (>= 3.6.0),"cli (>= 2.0.1), crayon (>= 1.3.4), hdf5r (>= 1.3.0), Matrix
+(>= 1.2.18), methods (>= 3.6.0), R6 (>= 2.4.1), rlang (>=
+0.4.4), Seurat (>= 3.2.0), SeuratObject (>= 4.0.0), stats,
+stringi (>= 1.4.6), tools, utils, withr (>= 2.1.2)",NA,"httr, knitr, rmarkdown, SeuratData",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+SeuratObject,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,5.1.0,NA,"R (>= 4.1.0), sp (>= 1.5.0)","future, future.apply, generics, grDevices, grid, lifecycle,
+Matrix (>= 1.6.4), methods, progressr, Rcpp (>= 1.0.5), rlang
+(>= 0.4.7), spam, stats, tools, utils","Rcpp, RcppEigen","BPCells, DelayedArray, fs (>= 1.5.2), ggplot2, HDF5Array,
+rmarkdown, sf (>= 1.0.0), testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+SeuratWrappers,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.5,NA,R (>= 3.5.0),"BiocManager, cowplot, ggplot2, igraph, Matrix, methods,
+remotes, rsvd, Seurat (>= 5.0.0), stats, utils, rlang",NA,"cipr, conos, rliger (>= 0.5.0), harmony, batchelor,
+SeuratData, SeuratDisk, velocyto.R, schex, tximport, fishpond,
+monocle3, CoGAPS, glmpca, Nebulosa, presto, flexmix, tricycle,
+Banksy",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+shadowtext,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.4,NA,R (>= 3.4.0),"ggplot2, grid, scales",NA,"knitr, rmarkdown, prettydoc",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+shape,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.6.1,NA,R (>= 2.01),"stats, graphics, grDevices",NA,NA,NA,GPL (>= 3),NA,NA,NA,NA,no,4.3.3
+shiny,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10.0,NA,"R (>= 3.0.2), methods","utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>=
+0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises
+(>= 1.3.2), tools, crayon, rlang (>= 0.4.10), fastmap (>=
+1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>=
+0.6.0), cachem (>= 1.1.0), lifecycle (>= 0.2.0)",NA,"coro (>= 1.1.0), datasets, DT, Cairo (>= 1.5-5), testthat (>=
+3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog
+(>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext,
+sass",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+shinyBS,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.61.1,NA,NA,"shiny (>= 0.11), htmltools",NA,NA,NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+shinydashboard,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.7.3,NA,R (>= 3.0),"htmltools (>= 0.2.6), promises, shiny (>= 1.0.0), utils",NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+shinydashboardPlus,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.5,NA,NA,"shiny, htmltools, shinydashboard, fresh, waiter (>= 0.2.3),
+lifecycle",NA,"styler (>= 1.2.0), shinyAce, shinyWidgets, shinyEffects,
+shinyjqui, knitr, rmarkdown, jsonlite, bslib",NA,GPL (>= 2) | file LICENSE,NA,NA,NA,NA,no,4.3.3
+shinyjs,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.1.0,NA,R (>= 3.1.0),"digest (>= 0.6.8), jsonlite, shiny (>= 1.0.0)",NA,"htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce,
+shinydisconnect, testthat (>= 0.9.1)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+shinythemes,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.0,NA,R (>= 3.0.0),shiny (>= 0.11),NA,NA,NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,4.3.3
+Signac,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.14.0,NA,"R (>= 4.1.0), methods","GenomeInfoDb (>= 1.29.3), GenomicRanges, IRanges, Matrix,
+Rsamtools, S4Vectors, SeuratObject (>= 5.0.2), data.table,
+dplyr (>= 1.0.0), future, future.apply, ggplot2, rlang, irlba,
+pbapply, tidyr, patchwork, stats, utils, BiocGenerics, stringi,
+fastmatch, RcppRoll, scales, Rcpp, grid, tidyselect, vctrs,
+lifecycle",Rcpp,"Seurat (>= 5.0.2), ggforce, ggrepel, ggseqlogo, testthat (>=
+2.1.0), chromVAR, SummarizedExperiment, TFBSTools, motifmatchr,
+BSgenome, shiny, miniUI, rtracklayer, biovizBase, Biostrings,
+lsa, MASS",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+simr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.7,NA,lme4 (>= 1.1-16),"binom,iterators,pbkrtest,plotrix,plyr,RLRsim,stringr,stats,methods,utils,graphics,grDevices,car,lmerTest
+(>= 3.0-0)",NA,"testthat,knitr,rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+SingleCellExperiment,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.24.0,NA,SummarizedExperiment,"methods, utils, stats, S4Vectors, BiocGenerics, GenomicRanges,
+DelayedArray",NA,"testthat, BiocStyle, knitr, rmarkdown, Matrix, scRNAseq (>=
+2.9.1), Rtsne",NA,GPL-3,NA,NA,NA,NA,no,4.3.2
+sitmo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.2,NA,R (>= 3.2.0),Rcpp (>= 0.12.13),Rcpp,"knitr, rmarkdown, ggplot2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+sjlabelled,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.0,NA,R (>= 3.4),"insight, datawizard, stats, tools, utils",NA,"dplyr, haven (>= 1.1.2), magrittr, sjmisc, sjPlot, knitr,
+rlang, rmarkdown, snakecase, testthat",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+sjmisc,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.8.10,NA,R (>= 3.4),"dplyr, insight, datawizard, magrittr, methods, purrr, rlang,
+sjlabelled (>= 1.1.1), stats, tidyselect, utils",NA,"ggplot2, graphics, haven (>= 2.0.0), mice, nnet, sjPlot,
+sjstats, knitr, rmarkdown, stringdist, testthat, tidyr",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+sjPlot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.8.17,NA,R (>= 3.6),"graphics, grDevices, stats, utils, bayestestR, datawizard,
+dplyr, ggeffects, ggplot2 (>= 3.2.0), knitr, insight, MASS,
+parameters, performance, purrr, rlang, scales, sjlabelled (>=
+1.1.2), sjmisc (>= 2.8.2), sjstats (>= 0.17.8), tidyr (>=
+1.0.0)",NA,"brms, car, clubSandwich, cluster, cowplot, effects, haven,
+GPArotation, ggrepel, glmmTMB, gridExtra, ggridges, httr, lme4,
+nFactors, pscl, psych, rmarkdown, rstanarm, sandwich, splines,
+survey, TMB, testthat",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+sjstats,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.19.0,NA,"R (>= 3.4), utils","datawizard, effectsize (>= 0.8.8), insight, parameters,
+performance, stats",NA,"brms, car, coin, ggplot2, lme4, MASS, pscl, pwr, survey,
+testthat",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+slam,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1-55,NA,R (>= 3.4.0),stats,NA,NA,"Matrix, SparseM, spam",GPL-2,NA,NA,NA,NA,yes,4.3.3
+slingshot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.10.0,NA,"R (>= 4.0), princurve (>= 2.0.4), stats, TrajectoryUtils","graphics, grDevices, igraph, matrixStats, methods, S4Vectors,
+SingleCellExperiment, SummarizedExperiment",NA,"BiocGenerics, BiocStyle, clusterExperiment,
+DelayedMatrixStats, knitr, mclust, mgcv, RColorBrewer, rgl,
+rmarkdown, testthat, uwot, covr",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+sm,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.2-6.0,NA,R (>= 3.1.0),NA,NA,"rgl, misc3d, interp, gam, tkrplot, rpanel (>= 1.1-4), tcltk",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+smoother,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3,NA,TTR(>= 0.22),NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+snow,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4-4,NA,"R (>= 2.13.1), utils",NA,NA,rlecuyer,Rmpi,GPL,NA,NA,NA,NA,no,4.3.1
+softImpute,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4-1,NA,"Matrix, methods",NA,NA,"knitr, rmarkdown",NA,GPL-2,NA,NA,NA,NA,yes,4.3.3
+SoupX,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6.2,NA,R (>= 3.5.0),"ggplot2, Matrix, methods, Seurat (>= 3.2.2)",NA,"knitr, rstan, DropletUtils, rmarkdown, formatR",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+sourcetools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1.7-1,NA,R (>= 3.0.2),NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+sp,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.2-0,NA,"R (>= 3.5.0), methods","utils, stats, graphics, grDevices, lattice, grid",NA,"RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown,
+sf, terra, raster",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+spam,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.11-1,NA,R (>= 4.0),"dotCall64, grid, methods, Rcpp (>= 1.0.8.3)",Rcpp,"spam64, fields, Matrix, testthat, R.rsp, truncdist, knitr,
+rmarkdown",NA,LGPL-2 | BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+SparseArray,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.4,NA,"R (>= 4.3.0), methods, Matrix, BiocGenerics (>= 0.43.1),
+MatrixGenerics (>= 1.11.1), S4Vectors, S4Arrays (>= 1.1.6)","stats, matrixStats, IRanges, XVector","S4Vectors, IRanges, XVector","DelayedArray, testthat, knitr, rmarkdown, BiocStyle",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+SparseM,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.84-2,NA,"R (>= 2.15), methods","graphics, stats, utils",NA,knitr,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+sparseMatrixStats,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.14.0,NA,MatrixGenerics (>= 1.5.3),"Rcpp, Matrix, matrixStats (>= 0.60.0), methods",Rcpp,"testthat (>= 2.1.0), knitr, bench, rmarkdown, BiocStyle",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.2
+sparsesvd,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2-2,NA,R (>= 3.0),"Matrix (>= 1.3), methods",NA,NA,NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.0
+spatstat.data,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1-6,NA,R (>= 3.5.0),"spatstat.utils (>= 3.1-2), Matrix",NA,"spatstat.geom, spatstat.random, spatstat.explore,
+spatstat.model, spatstat.linnet",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+spatstat.explore,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.4-2,NA,"R (>= 3.5.0), spatstat.data (>= 3.1-2), spatstat.univar (>=
+3.1-2), spatstat.geom (>= 3.3-6), spatstat.random (>= 3.3-2),
+stats, graphics, grDevices, utils, methods, nlme","spatstat.utils (>= 3.1-0), spatstat.sparse (>= 3.1-0), goftest
+(>= 1.2-2), Matrix, abind",NA,"sm, gsl, locfit, spatial, fftwtools (>= 0.9-8),
+spatstat.linnet (>= 3.2-1), spatstat.model (>= 3.3-1), spatstat
+(>= 3.1-1)",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+spatstat.geom,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.3-6,NA,"R (>= 3.5.0), spatstat.data (>= 3.1), spatstat.univar (>=
+3.1), stats, graphics, grDevices, utils, methods","spatstat.utils (>= 3.1-2), deldir (>= 1.0-2), polyclip (>=
+1.10)",NA,"spatstat.random (>= 3.3), spatstat.explore (>= 3.3),
+spatstat.model (>= 3.3), spatstat.linnet (>= 3.2), spatial,
+fftwtools (>= 0.9-8), spatstat (>= 3.3)",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+spatstat.random,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.3-3,NA,"R (>= 3.5.0), spatstat.data (>= 3.1), spatstat.univar (>=
+3.1), spatstat.geom (>= 3.3-6), stats, utils, methods,
+grDevices",spatstat.utils (>= 3.1-2),NA,"spatial, spatstat.linnet (>= 3.2), spatstat.explore,
+spatstat.model, spatstat (>= 3.3), gsl",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+spatstat.sparse,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1-0,NA,"R (>= 3.5.0), stats, utils, methods, Matrix, abind, tensor",spatstat.utils (>= 3.0-5),NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+spatstat.univar,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1-2,NA,"R (>= 3.5.0), stats",spatstat.utils (>= 3.1-2),NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+spatstat.utils,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1-3,NA,"R (>= 3.5.0), stats, graphics, grDevices, utils, methods",NA,NA,spatstat.model,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+SPIA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.54.0,NA,"R (>= 2.14.0), graphics, KEGGgraph",graphics,NA,"graph, Rgraphviz, hgu133plus2.db",NA,file LICENSE,NA,yes,NA,NA,no,4.3.3
+splines,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,"graphics, stats",NA,"Matrix, methods",NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+SQUAREM,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2021.1,NA,R (>= 3.0),NA,NA,setRNG,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+stabs,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6-4,NA,"R (>= 2.14.0), methods, stats, parallel","graphics, grDevices, utils",NA,"glmnet, lars, mboost (> 2.3-0), gamboostLSS (>= 1.2-0),
+TH.data, hdi, testthat, knitr, rmarkdown",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+StanHeaders,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.32.10,NA,R (>= 3.4.0),RcppParallel (>= 5.1.4),"RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)","Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix,
+methods, rstan, withr",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+statmod,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.0,NA,R (>= 3.0.0),"stats, graphics",NA,"MASS, tweedie",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3
+stats,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+stats4,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,"graphics, methods, stats",NA,NA,NA,Part of R 4.3.3,NA,NA,NA,NA,NA,4.3.3
+stringfish,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.16.0,NA,R (>= 3.0.2),"Rcpp, RcppParallel","Rcpp (>= 0.12.18.3), RcppParallel (>= 5.1.4)","qs, knitr, rmarkdown, usethis, dplyr, stringr, rlang",NA,GPL-3,NA,NA,NA,NA,yes,4.3.3
+stringi,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8.7,NA,R (>= 3.4),"tools, utils, stats",NA,NA,NA,file LICENSE,yes,NA,NA,NA,yes,4.3.3
+stringr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5.1,NA,R (>= 3.6),"cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang
+(>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)",NA,"covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown,
+testthat (>= 3.0.0), tibble",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+SummarizedExperiment,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.32.0,NA,"R (>= 4.0.0), methods, MatrixGenerics (>= 1.1.3),
+GenomicRanges (>= 1.41.5), Biobase","utils, stats, tools, Matrix, BiocGenerics (>= 0.37.0),
+S4Vectors (>= 0.33.7), IRanges (>= 2.23.9), GenomeInfoDb (>=
+1.13.1), S4Arrays (>= 1.1.1), DelayedArray (>= 0.27.1)",NA,"HDF5Array (>= 1.7.5), annotate, AnnotationDbi, hgu95av2.db,
+GenomicFeatures, TxDb.Hsapiens.UCSC.hg19.knownGene, jsonlite,
+rhdf5, airway (>= 1.15.1), BiocStyle, knitr, rmarkdown, RUnit,
+testthat, digest",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.2
+survival,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.8-3,recommended,R (>= 3.5.0),"graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,LGPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+sys,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.4.3,NA,NA,NA,NA,"unix (>= 1.4), spelling, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+systemfonts,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.3,NA,R (>= 3.2.0),"base64enc, grid, jsonlite, lifecycle, tools, utils",cpp11 (>= 0.2.1),"covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+tcltk,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,utils,NA,NA,NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+tensor,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.5,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,NA,4.3.3
+tensorA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.36.2.1,NA,"R (>= 2.2.0), stats",NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+tester,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.0,NA,R (>= 3.0),NA,NA,"testthat, knitr",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+testthat,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.2.3,NA,R (>= 3.6.0),"brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>=
+1.4.2), digest (>= 0.6.33), evaluate (>= 1.0.1), jsonlite (>=
+1.8.7), lifecycle (>= 1.0.3), magrittr (>= 2.0.3), methods,
+pkgload (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2),
+ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo
+(>= 0.6.0), withr (>= 3.0.2)",NA,"covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr,
+rmarkdown, rstudioapi, S7, shiny, usethis, vctrs (>= 0.1.0),
+xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+textshape,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7.5,NA,R (>= 3.4.0),"data.table, slam, stats, stringi, utils",NA,testthat,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+textshaping,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.1,NA,R (>= 3.2.0),"lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils","cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)","covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+TFBSTools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.40.0,NA,R (>= 3.2.2),"Biobase(>= 2.28), Biostrings(>= 2.36.4), BiocGenerics(>=
+0.14.0), BiocParallel(>= 1.2.21), BSgenome(>= 1.36.3),
+caTools(>= 1.17.1), CNEr(>= 1.4.0), DirichletMultinomial(>=
+1.10.0), GenomeInfoDb(>= 1.6.1), GenomicRanges(>= 1.20.6),
+gtools(>= 3.5.0), grid, IRanges(>= 2.2.7), methods, DBI (>=
+0.6), RSQLite(>= 1.0.0), rtracklayer(>= 1.28.10), seqLogo(>=
+1.34.0), S4Vectors(>= 0.9.25), TFMPvalue(>= 0.0.5), XML(>=
+3.98-1.3), XVector(>= 0.8.0), parallel",NA,"BiocStyle(>= 1.7.7), JASPAR2014(>= 1.4.0), knitr(>= 1.11),
+testthat, JASPAR2016(>= 1.0.0), JASPAR2018(>= 1.0.0), rmarkdown",NA,GPL-2,NA,NA,NA,NA,yes,4.3.2
+TFMPvalue,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.0.9,NA,R (>= 3.0.1),Rcpp(>= 0.11.1),Rcpp,testthat,NA,GPL-2,NA,NA,NA,NA,yes,4.3.1
+tibble,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.2.1,NA,R (>= 3.4.0),"fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
+pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs
+(>= 0.4.2)",NA,"bench, bit64, blob, brio, callr, cli, covr, crayon (>=
+1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2,
+here, hms, htmltools, knitr, lubridate, mockr, nycflights13,
+pkgbuild, pkgload, purrr, rmarkdown, stringi, testthat (>=
+3.0.2), tidyr, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.1
+tidygraph,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.1,NA,NA,"cli, dplyr (>= 0.8.5), igraph (>= 2.0.0), lifecycle, magrittr,
+pillar, R6, rlang, stats, tibble, tidyr, tools, utils",cpp11,"ape, covr, data.tree, graph, influenceR, methods, netrankr,
+NetSwan, network, seriation, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+tidyr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.1,NA,R (>= 3.6),"cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3),
+magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>=
+1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs
+(>= 0.5.2)",cpp11 (>= 0.4.0),"covr, data.table, knitr, readr, repurrrsive (>= 1.1.0),
+rmarkdown, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+tidyselect,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.1,NA,R (>= 3.4),"cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang
+(>= 1.0.4), vctrs (>= 0.5.2), withr",NA,"covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr,
+testthat (>= 3.1.1), tibble (>= 2.1.3)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+tidytree,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.6,NA,R (>= 3.4.0),"ape, dplyr, lazyeval, magrittr, methods, rlang, tibble, tidyr,
+tidyselect, yulab.utils (>= 0.0.4), pillar, cli",NA,"knitr, rmarkdown, prettydoc, testthat, utils",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+tidyverse,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.0,NA,R (>= 3.3),"broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0),
+dbplyr (>= 2.3.0), dplyr (>= 1.1.0), dtplyr (>= 1.2.2), forcats
+(>= 1.0.0), ggplot2 (>= 3.4.1), googledrive (>= 2.0.0),
+googlesheets4 (>= 1.0.1), haven (>= 2.5.1), hms (>= 1.1.2),
+httr (>= 1.4.4), jsonlite (>= 1.8.4), lubridate (>= 1.9.2),
+magrittr (>= 2.0.3), modelr (>= 0.1.10), pillar (>= 1.8.1),
+purrr (>= 1.0.1), ragg (>= 1.2.5), readr (>= 2.1.4), readxl (>=
+1.4.2), reprex (>= 2.0.2), rlang (>= 1.0.6), rstudioapi (>=
+0.14), rvest (>= 1.0.3), stringr (>= 1.5.0), tibble (>= 3.1.8),
+tidyr (>= 1.3.0), xml2 (>= 1.3.3)",NA,"covr (>= 3.6.1), feather (>= 0.3.5), glue (>= 1.6.2), mockr
+(>= 0.2.0), knitr (>= 1.41), rmarkdown (>= 2.20), testthat (>=
+3.1.6)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+timechange,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.3.0,NA,R (>= 3.3),NA,cpp11 (>= 0.2.7),"testthat (>= 0.7.1.99), knitr",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+tinytex,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.57,NA,NA,xfun (>= 0.48),NA,"testit, rstudioapi",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+tools,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,NA,NA,"codetools, methods, xml2, curl, commonmark, knitr, xfun,
+mathjaxr, V8",NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+TrajectoryUtils,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.10.1,NA,SingleCellExperiment,"methods, stats, Matrix, igraph, S4Vectors,
+SummarizedExperiment",NA,"BiocNeighbors, DelayedArray, DelayedMatrixStats,
+BiocParallel, testthat, knitr, BiocStyle, rmarkdown",NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+treeio,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.26.0,NA,R (>= 3.6.0),"ape, dplyr, jsonlite, magrittr, methods, rlang, tibble,
+tidytree (>= 0.4.5), utils, stats",NA,"Biostrings, ggplot2, ggtree, igraph, knitr, rmarkdown,
+phangorn, prettydoc, testthat, tidyr, vroom, xml2, yaml, purrr,
+cli",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+truncnorm,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0-9,NA,R (>= 3.4.0),NA,NA,testthat,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+trust,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.1-8,NA,R (>= 2.10.0),stats,NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+TTR,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.24.4,NA,NA,"xts (>= 0.10-0), zoo, curl",xts,RUnit,quantmod,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+tweenr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.0.3,NA,R (>= 3.2.0),"farver, magrittr, rlang, vctrs",cpp11 (>= 0.4.2),"testthat, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+tzdb,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.0,NA,R (>= 4.0.0),NA,cpp11 (>= 0.5.2),"covr, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+ucminf,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.2,NA,R (>= 3.5.0),NA,NA,numDeriv,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+urlchecker,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.1,NA,R (>= 3.3),"cli, curl, tools, xml2",NA,covr,NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+usethis,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.1.0,NA,R (>= 3.6),"cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc
+(>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue
+(>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, tools,
+utils, whisker, withr (>= 2.3.0), yaml",NA,"covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown,
+roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0),
+testthat (>= 3.1.8)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+utf8,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2.5,NA,R (>= 2.10),NA,NA,"cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
+withr",NA,Apache License (== 2.0) | file LICENSE,NA,NA,NA,NA,yes,4.3.3
+utils,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,4.3.3,base,NA,NA,NA,"methods, xml2, commonmark, knitr",NA,Part of R 4.3.3,NA,NA,NA,NA,yes,4.3.3
+uuid,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.2-1,NA,R (>= 2.9.0),NA,NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+uwot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.3,NA,Matrix,"FNN, irlba, methods, Rcpp, RcppAnnoy (>= 0.0.17), RSpectra","dqrng, Rcpp, RcppAnnoy, RcppProgress","bigstatsr, covr, knitr, RcppHNSW, rmarkdown, rnndescent,
+testthat",NA,GPL (>= 3),NA,NA,NA,NA,yes,4.3.3
+variancePartition,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.32.5,NA,"R (>= 4.3.0), ggplot2, limma, BiocParallel","MASS, pbkrtest (>= 0.4-4), lmerTest, Matrix (>= 1.4.0),
+iterators, gplots, corpcor, matrixStats, RhpcBLASctl, reshape2,
+remaCor (>= 0.0.15), fANCOVA, aod, scales, Rdpack, rlang, lme4
+(>= 1.1.33), grDevices, graphics, Biobase, methods, utils,
+stats",NA,"BiocStyle, knitr, pander, rmarkdown, edgeR, dendextend,
+tximport, tximportData, ballgown, DESeq2, RUnit, cowplot,
+Rfast, zenith, statmod, BiocGenerics, r2glmm, readr",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+VariantAnnotation,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.48.1,NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0),
+MatrixGenerics, GenomeInfoDb (>= 1.15.2), GenomicRanges (>=
+1.41.5), SummarizedExperiment (>= 1.19.5), Rsamtools (>=
+1.99.0)","utils, DBI, zlibbioc, Biobase, S4Vectors (>= 0.27.12), IRanges
+(>= 2.23.9), XVector (>= 0.29.2), Biostrings (>= 2.57.2),
+AnnotationDbi (>= 1.27.9), rtracklayer (>= 1.39.7), BSgenome
+(>= 1.47.3), GenomicFeatures (>= 1.31.3)","S4Vectors, IRanges, XVector, Biostrings, Rhtslib (>= 1.99.3)","RUnit, AnnotationHub, BSgenome.Hsapiens.UCSC.hg19,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+SNPlocs.Hsapiens.dbSNP144.GRCh37, SIFT.Hsapiens.dbSNP132,
+SIFT.Hsapiens.dbSNP137, PolyPhen.Hsapiens.dbSNP131, snpStats,
+ggplot2, BiocStyle, knitr",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.3
+vcd,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4-13,NA,"R (>= 2.4.0), grid","stats, utils, MASS, grDevices, colorspace, lmtest",NA,"KernSmooth, mvtnorm, kernlab, HSAUR3, coin",NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+vctrs,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6.5,NA,R (>= 3.5.0),"cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)",NA,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
+zeallot",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+VennDiagram,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.7.3,NA,"R (>= 3.5.0), grid (>= 2.14.1), futile.logger",methods,NA,testthat,NA,GPL-2,NA,NA,NA,NA,no,4.3.3
+VIM,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,6.2.2,NA,"R (>= 3.5.0),colorspace,grid","car, grDevices, magrittr, robustbase, stats, sp,
+vcd,MASS,nnet,e1071,methods,Rcpp,utils,graphics,laeken,ranger,
+data.table(>= 1.9.4)",Rcpp,"dplyr, tinytest, knitr, rmarkdown, reactable, covr, withr",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+vioplot,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.5.1,NA,"sm, zoo",NA,NA,"base, ggplot2, RColorBrewer, knitr, rmarkdown, testthat",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,no,4.3.3
+vipor,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.7,NA,R (>= 3.5.0),"stats, graphics",NA,"testthat, beeswarm, lattice, ggplot2, beanplot, vioplot,
+ggbeeswarm,",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+viridis,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6.5,NA,"R (>= 2.10), viridisLite (>= 0.4.0)","ggplot2 (>= 1.0.1), gridExtra",NA,"hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, httr, mapproj, vdiffr, svglite (>= 1.2.0),
+testthat, covr, rmarkdown, maps, terra",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+viridisLite,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.2,NA,R (>= 2.10),NA,NA,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.1
+vroom,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.6.5,NA,R (>= 3.6),"bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>=
+1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0),
+tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr","cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)","archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs,
+ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown,
+rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr,
+utils, waldo, xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+waiter,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.5,NA,NA,"R6, shiny, htmltools",NA,"httr, knitr, packer, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+waldo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.6.1,NA,R (>= 4.0),"cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)",NA,"bit64, R6, S7, testthat (>= 3.0.0), withr, xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+WGCNA,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.73,NA,"R (>= 3.0), dynamicTreeCut (>= 1.62), fastcluster","stats, grDevices, utils, matrixStats (>= 0.8.1), Hmisc,
+impute, splines, foreach, doParallel, preprocessCore, survival,
+parallel, GO.db, AnnotationDbi, Rcpp (>= 0.11.0)",Rcpp,"org.Hs.eg.db, org.Mm.eg.db, infotheo, entropy, minet",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+whisker,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.4.1,NA,NA,NA,NA,markdown,NA,GPL-3,NA,NA,NA,NA,no,4.3.3
+withr,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.0.2,NA,R (>= 3.6.0),"graphics, grDevices",NA,"callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12),
+RSQLite, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+WriteXLS,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,6.7.0,NA,NA,utils,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.3
+xfun,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.52,NA,R (>= 3.2.0),"grDevices, stats, tools",NA,"testit, parallel, codetools, methods, rstudioapi, tinytex (>=
+0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.50),
+remotes, pak, curl, xml2, jsonlite, magick, yaml, qs",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+XML,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,3.99-0.18,NA,"R (>= 4.0.0), methods, utils",NA,NA,"bitops, RCurl",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+xml2,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.3.8,NA,R (>= 3.6.0),"cli, methods, rlang (>= 1.1.0)",NA,"covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 3.2.0), xslt",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+xopen,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.0.1,NA,R (>= 3.1),processx,NA,"ps, testthat (>= 3.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,4.3.3
+xtable,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8-4,NA,R (>= 2.10.0),"stats, utils",NA,"knitr, plm, zoo, survival",NA,GPL (>= 2),NA,NA,NA,NA,no,4.3.1
+xts,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.14.1,NA,"R (>= 3.6.0), zoo (>= 1.7-12)",methods,zoo,"timeSeries, timeDate, tseries, chron, tinytest",NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+XVector,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.42.0,NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9)","methods, utils, tools, zlibbioc, BiocGenerics, S4Vectors,
+IRanges","S4Vectors, IRanges","Biostrings, drosophila2probe, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,yes,4.3.2
+yaml,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3.10,NA,NA,NA,NA,RUnit,NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+yulab.utils,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.2.0,NA,R (>= 4.2.0),"cli, digest, fs, rlang, tools, utils",NA,"httr2, jsonlite, openssl, rappdirs",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+zenith,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.4.2,NA,"R (>= 4.2.0), limma, methods","variancePartition (>= 1.26.0), EnrichmentBrowser (>= 2.22.0),
+GSEABase (>= 1.54.0), msigdbr (>= 7.5.1), Rfast, ggplot2,
+tidyr, reshape2, progress, utils, Rdpack, stats",NA,"BiocStyle, BiocGenerics, knitr, pander, rmarkdown,
+tweeDEseqCountData, edgeR, kableExtra, RUnit",NA,Artistic-2.0,NA,NA,NA,NA,no,4.3.3
+zigg,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,0.0.2,NA,NA,NA,NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,4.3.3
+zip,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,2.3.2,NA,NA,NA,NA,"covr, pillar, processx, R6, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+zlibbioc,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.48.2,NA,NA,NA,NA,"BiocStyle, knitr",NA,Artistic-2.0 + file LICENSE,NA,NA,NA,NA,yes,4.3.3
+zoo,/rds/general/user/mlattke/home/anaconda3/envs/R43_240426/lib/R/library,1.8-14,NA,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"AER, coda, chron, ggplot2 (>= 3.5.0), mondate, scales,
+stinepack, strucchange, timeDate, timeSeries, tinyplot, tis,
+tseries, xts",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.3.3

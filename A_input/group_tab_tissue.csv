@@ -1,4 +1,4 @@
-sample,sample_name,donor_short,sample_type,dataset_folder,group,dev_PCW,sex,disease,batch_seq,tissue_quality,RNase_inh
+library,sample_name,sample,sample_type,dataset_folder,group,dev_PCW,sex,disease,batch_seq,tissue_quality,RNase_inh
 B10C1Q,PCW10_CON_11950,B10C1,foetal,/rds/general/user/mlattke/projects/dsseq23/live/E06_240226_multiome_batch_E20_to_E25/,CON,10,male,CON,E21,ok,RiboLock
 B11C1A,PCW11_CON_14674,B11C1,foetal,/rds/general/user/mlattke/projects/dsseq23/live/E06_240226_multiome_batch_E20_to_E25/,CON,11,male,CON,E21,ok_orig_sub,RiboLock
 B11C1C,PCW11_CON_14674,B11C1,foetal,/rds/general/user/mlattke/projects/dsseq23/live/E10_240711_multiome_batch_P04E27_E29_P03E07_E09_mapping_corrected_labels/,CON,11,male,CON,E27,ok_orig_sub,RiboLock

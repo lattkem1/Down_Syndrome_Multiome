@@ -1,0 +1,15 @@
+library,sample_name,sample,sample_type,dataset_folder,group,dev_PCW,sex,disease,batch_seq,tissue_quality,RNase_inh,cell_line,isogenic_pair,protocol,weeks_post_injection,seq_tech
+G13C1E,97_164,G13C1E,graft,/rds/general/user/mlattke/projects/dsseq23/live/E08_240708_multiome_batch_P04E27_E29_P03E07_E09_mapping/,CON,,male,CON,P03E09,,RiboLock,DS2U,DS2U_DS1,SCZ,13,Multiome_10X
+G21C1K,135,G21C1K,graft,/rds/general/user/mlattke/projects/dsseq23/live/E08_240708_multiome_batch_P04E27_E29_P03E07_E09_mapping/,CON,,male,CON,P03E10,,RiboLock,DS2U,DS2U_DS1,SCZ,21,Multiome_10X
+S379,379,DS2U_379,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,CON,,male,CON,JIMMY2,,,DS2U,DS2U_DS1,SCZ,12,snRNA_Singleron
+S380,380,DS2U_380,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,CON,,male,CON,JIMMY2,,,DS2U,DS2U_DS1,SCZ,12,snRNA_Singleron
+S383,383,DS2U_383,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,CON,,male,CON,JIMMY2,,,DS2U,DS2U_DS1,SCZ,12,snRNA_Singleron
+S384,384,DS2U_384,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,CON,,male,CON,JIMMY2,,,DS2U,DS2U_DS1,SCZ,12,snRNA_Singleron
+S387,387,DS2U_387,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,CON,,male,CON,JIMMY2,,,DS2U,DS2U_DS1,SCZ,12,snRNA_Singleron
+S388,388,DS2U_388,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,CON,,male,CON,JIMMY2,,,DS2U,DS2U_DS1,SCZ,12,snRNA_Singleron
+G24D3D,291,G24D3D,graft,/rds/general/user/mlattke/projects/dsseq23/live/E14_241219_DS_foetal_brain_grafts_for_man_v02_low_string/,DS,,male,DS,P03E11,,RiboLock,DS1,DS2U_DS1,SCZ,24,Multiome_10X
+G24D4E,292,G24D4E,graft,/rds/general/user/mlattke/projects/dsseq23/live/E14_241219_DS_foetal_brain_grafts_for_man_v02_low_string/,DS,,male,DS,P03E11,,RiboLock,DS1,DS2U_DS1,SCZ,24,Multiome_10X
+S381,381,DS1_381,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,DS,,male,DS,JIMMY2,,,DS1,DS2U_DS1,SCZ,12,snRNA_Singleron
+S382,382,DS1_382,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,DS,,male,DS,JIMMY2,,,DS1,DS2U_DS1,SCZ,12,snRNA_Singleron
+S385_386,385_386,DS1_385_386,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,DS,,male,DS,JIMMY2,,,DS1,DS2U_DS1,SCZ,12,snRNA_Singleron
+S389_390,389_390,DS1_389_390,graft,/rds/general/user/mlattke/projects/dsseq23/live/Singleron_raw_data/JIMMY2_250425_grafts/Filtered_matrix_files/,DS,,male,DS,JIMMY2,,,DS1,DS2U_DS1,SCZ,12,snRNA_Singleron

@@ -1,5 +1,0 @@
-sample,sample_name,donor_short,sample_type,dataset_folder,group,dev_PCW,sex,disease,batch_seq,tissue_quality,RNase_inh,cell_line,protocol,weeks_post_injection
-NDC,NDC,NDC,in_vitro,,CON,,,CON,,,,,Shi,
-THO3F,THO3F,THO3F,in_vitro,,CON,,,CON,,,,,Shi,
-DSIPS,DSIPS,DSIPS,in_vitro,,DS,,,DS,,,,,Shi,
-THO3B,THO3B,THO3B,in_vitro,,DS,,,DS,,,,,Shi,

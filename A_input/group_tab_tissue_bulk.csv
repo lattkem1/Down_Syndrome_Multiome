@@ -1,0 +1,13 @@
+IGF_ID,library,sample_name,sample,sample_type,dataset_folder,group,dev_PCW,sex,disease,tissue_quality
+IGF137653,B11C2L,PCW11_CON_17833,B11C2,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,CON,11,female,CON,ok
+IGF137654,B12C1D,PCW12_CON_12152,B12C1,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,CON,12,male,CON,ok
+IGF137655,B12C2K,PCW12_CON_14427,B12C2,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,CON,12,female,CON,ok
+IGF137656,B12C4H,PCW12_CON_15569,B12C4,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,CON,12,male,CON,ok
+IGF137657,B13C2F,PCW13_CON_11928,B13C2,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,CON,13,male,CON,ok
+IGF137658,B14C1B,PCW14_CON_15077,B14C1,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,CON,14,female,CON,ok_orig_sub
+IGF137659,B11D2K,PCW11_DS_17720,B11D2,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,DS,11,female,DS,ok
+IGF137660,B12D1J,PCW12_DS_12941,B12D1,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,DS,12,male,DS,ok
+IGF137661,B12D2G,PCW12_DS_15931,B12D2,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,DS,12,male,DS,ok_orig_sub
+IGF137662,B12D3F,PCW12_DS_15186,B12D3,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,DS,12,male,DS,ok_orig_sub
+IGF137663,B13D1E,PCW13_DS_14239,B13D1,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,DS,13,female,DS,ok
+IGF137664,B13D3L,PCW13_DS_12740,B13D3,fetal,/rds/general/user/mlattke/projects/dsseq23/live/fastq_bulk_RNA_IGF/IGFQ001963_de-paola_14-5-2025_ribodepletion_AACLJJMHV_2025-06-04/,DS,13,male,DS,ok_orig_sub

@@ -38,6 +38,8 @@ DLX2,BRAIN/IPC/NEU_inh_ventral,"Bagley et al., 2017; Delgado et al., 2021",BRAIN
 CUX2,NEU_Cor_L2_3,"Zeisel et al., 2018 mouse",NEU_Cor,L2_3,cortical_layers,also in subplate neurons (SP),
 SATB2,NEU_Cor_L2_3,Britanova et al. 2008,NEU_Cor,L2_3,cortical_layers,,
 RORB,NEU_Cor_L4,"Zeisel et al., 2018 mouse",NEU_Cor,L4,cortical_layers,,
+FOXP1,NEU_Cor_L4_5_6,"Ortiz et al., 2025; Li et al., 2023 (mouse)",NEU_Cor,L3_4_5_6,cortical_layers,,
+FEZF2,NEU_Cor_L5_6,"Chen et al., 2008, McKenna et al., 2011 (mouse)",NEU_Cor,L5,cortical_layers,,
 TBR1,NEU_Cor_L4_5_6,"Zeisel et al., 2018 mouse",NEU_Cor,L4_5_6,cortical_layers,,
 BCL11B,NEU_Cor_L5_6,"Zeisel et al., 2018 mouse; gene for CTIP2",NEU_Cor,L5_6,cortical_layers,,
 TLE4,NEU_Cor_L5_6,"Velmeshev et al., 2023",NEU_Cor,L5_6,cortical_layers,,
