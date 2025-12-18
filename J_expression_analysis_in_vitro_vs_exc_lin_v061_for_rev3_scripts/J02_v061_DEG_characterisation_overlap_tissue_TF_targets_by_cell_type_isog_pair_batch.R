@@ -28,11 +28,11 @@ library(msigdbr)
 script_ind = "J02_"
 
 #specify output directory
-out_dir = paste0(main_dir,"J_expression_analysis_in_vitro_vs_exc_lin_v050/")
+out_dir = paste0(main_dir,"J_expression_analysis_in_vitro_vs_exc_lin_v061_for_rev3/")
 
 #load group and file info
 
-gr_tab_in_vitro = read_csv("A_input/group_tab_in_vitro_bulk.csv")
+gr_tab_in_vitro = read_csv("A_input/group_tab_in_vitro_bulk_v060.csv")
 
 gr_tab_tissue = read_csv("B_basic_analysis/B02_gr_tab_filtered_non_cx_excl.csv")
 
@@ -88,25 +88,23 @@ net_edges_cand_TFs$Chr21_targets = net_edges_cand_TFs$target %in% GOI$Chr21
 
 t1 = bulk_data_in_vitro$meta
 t1$sample_type = "in_vitro"
-t1$cluster_name = paste0(t1$comp)
-t1$cluster_sample = paste0(t1$cluster_name, "_", t1$sample)
 
 t2 = bulk_data_tissue$meta
 t2$sample_type = "fetal"
 t2$genotype = t2$disease
 t2$isogenic_pair = "fetal"
+t2$isog_pair_batch = "fetal"
 t2$seq_tech = "Multiome_10X"
 
-t3 = full_join(t1, t2, by = c("cluster_name","cluster_sample", "sample", "group", 
-                              "sample_type", "genotype", "cell_type", "isogenic_pair", "seq_tech"))
-t3$group = t3$genotype
+t3 = full_join(t1, t2, by = intersect(names(t1), names(t2)))
 
 meta_merged = t3
 
 # merge count matrices
 
 m1 = bulk_data_in_vitro$counts
-colnames(m1) = t1$cluster_sample
+m1 = m1[,colnames(m1) %in% t1$cluster_sample]
+
 m2 = bulk_data_tissue$counts
 
 genes_merged = intersect(rownames(m1), rownames(m2))
@@ -129,15 +127,14 @@ bulk_data_merged = list(meta = meta_merged,
 
 ### define covariates to correct for
 
-covars = c("seq_tech")
+covars = c("isog_pair_batch")
 
 
 ### define selected clusters of merged dataset for plotting
 
 unique(meta_merged$cluster_name)
 
-sel_clusters = c("iNPC_C9_C13_batch_LILAC1", "iNPC_DS2U_DS1_batch_LILAC1", "iNPC_DS2U_DS1_batch_LILAC3",
-                 "iNEU_C9_C13_batch_LILAC1"  , "iNEU_DS2U_DS1_batch_LILAC3", 
+sel_clusters = c(unique(bulk_data_in_vitro$meta$cluster_name),
                  "RG_s1", "NEU_RORB_s4", "NEU_TLE4_s3")
 
 bulk_data_merged$sel_clusters = sel_clusters
@@ -323,7 +320,7 @@ pdf(file = paste0(out_dir,script_ind, "Overlap_tissue_DEGs_by_cluster_vs_in_vitr
            clustering_method = "ward.D2",
            treeheight_row = 10, treeheight_col = 10,
            color = colorRampPalette(c("white", "blue"))(250),
-           breaks = seq(0, max(overlap_mat_fract), length.out = 251),
+           breaks = seq(0, 1, length.out = 251),
            border_color = NA, fontsize = 10,
            cellwidth = 10, cellheight = 10,
            main = "Fraction of DEGs by cluster vs reg in vitro models")
@@ -334,7 +331,7 @@ pdf(file = paste0(out_dir,script_ind, "Overlap_tissue_DEGs_by_cluster_vs_in_vitr
            clustering_method = "ward.D2",
            treeheight_row = 10, treeheight_col = 10,
            color = colorRampPalette(c("white", "blue"))(250),
-           breaks = seq(0, max(overlap_mat_fract), length.out = 251),
+           breaks = seq(0, 1, length.out = 251),
            border_color = NA, fontsize = 10,
            cellwidth = 10, cellheight = 10,
            main = "Fraction of DEGs by cluster vs reg in vitro models")
@@ -682,7 +679,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_tissue_DEGs_combined.pd
                         pl_meta = meta,
                         pl_genes = pl_genes,
                         x_col = "cluster_sample", 
-                        meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                        meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                            "cell_type", "seq_tech", "sample_type"),
                         show_rownames = FALSE, show_colnames = FALSE,
                         cluster_rows = TRUE, cluster_cols = FALSE,
                         color = viridis(250),
@@ -716,7 +714,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_DEGs_combined_sel_clust
                         pl_meta = bulk_data$meta[bulk_data$meta$cluster_name %in% sel_clusters,],
                         pl_genes = pl_genes,
                         x_col = "cluster_sample", 
-                        meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                        meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                            "cell_type", "seq_tech", "sample_type"),
                         show_rownames = FALSE, show_colnames = FALSE,
                         cluster_rows = TRUE, cluster_cols = FALSE,
                         color = viridis(250),
@@ -799,7 +798,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_DEGs_combined_sel_clust
                         pl_meta = bulk_data$meta[bulk_data$meta$cluster_name %in% sel_clusters,],
                         pl_genes = pl_genes,
                         x_col = "cluster_sample", 
-                        meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                        meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                            "cell_type", "seq_tech", "sample_type"),
                         show_rownames = TRUE, show_colnames = FALSE,
                         cluster_rows = TRUE, cluster_cols = FALSE,
                         color = viridis(250),
@@ -878,7 +878,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_DEGs_combined_sel_clust
                         pl_genes = pl_genes,
                         p_mat = FALSE,
                         x_col = "cluster_sample", 
-                        meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                        meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                            "cell_type", "seq_tech", "sample_type"),
                         show_rownames = FALSE, show_colnames = FALSE,
                         cluster_rows = TRUE, cluster_cols = FALSE,
                         viridis(250),
@@ -957,7 +958,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_DEGs_combined_sel_clust
                         pl_genes = pl_genes,
                         p_mat = FALSE,
                         x_col = "cluster_sample", 
-                        meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                        meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                            "cell_type", "seq_tech", "sample_type"),
                         show_rownames = FALSE, show_colnames = FALSE,
                         cluster_rows = TRUE, cluster_cols = FALSE,
                         viridis(250),
@@ -1044,7 +1046,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_GO_genes_z_score_sel_cl
                           pl_meta = bulk_data$meta[bulk_data$meta$cluster_name %in% sel_clusters,],
                           pl_genes = pl_genes,
                           x_col = "cluster_sample", 
-                          meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                          meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                              "cell_type", "seq_tech", "sample_type"),
                           show_rownames = TRUE, show_colnames = FALSE,
                           cluster_rows = TRUE, cluster_cols = FALSE,
                           color = viridis(250),
@@ -1148,7 +1151,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_DEGs_combined_sel_clust
                           pl_genes = pl_genes,
                           p_mat = FALSE,
                           x_col = "cluster_sample", 
-                          meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                          meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                              "cell_type", "seq_tech", "sample_type"),
                           show_rownames = TRUE, show_colnames = FALSE,
                           cluster_rows = TRUE, cluster_cols = FALSE,
                           viridis(250),
@@ -1294,7 +1298,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_GO_genes_z_score_sel_cl
                             pl_meta = bulk_data$meta[bulk_data$meta$cluster_name %in% sel_clusters,],
                             pl_genes = pl_genes,
                             x_col = "cluster_sample", 
-                            meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                            meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                                "cell_type", "seq_tech", "sample_type"),
                             show_rownames = TRUE, show_colnames = FALSE,
                             cluster_rows = TRUE, cluster_cols = FALSE,
                             color = viridis(250),
@@ -1396,7 +1401,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_DEGs_combined_sel_clust
                             pl_genes = pl_genes,
                             p_mat = FALSE,
                             x_col = "cluster_sample", 
-                            meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                            meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                                "cell_type", "seq_tech", "sample_type"),
                             show_rownames = TRUE, show_colnames = FALSE,
                             cluster_rows = TRUE, cluster_cols = FALSE,
                             viridis(250),
@@ -1547,7 +1553,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_GO_genes_z_score_sel_cl
                             pl_meta = bulk_data$meta[bulk_data$meta$cluster_name %in% sel_clusters,],
                             pl_genes = pl_genes,
                             x_col = "cluster_sample", 
-                            meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                            meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                                "cell_type", "seq_tech", "sample_type"),
                             show_rownames = TRUE, show_colnames = FALSE,
                             cluster_rows = TRUE, cluster_cols = FALSE,
                             color = viridis(250),
@@ -1650,7 +1657,8 @@ pdf(file = paste0(out_dir,script_ind, "Gene_expr_heatmap_DEGs_combined_sel_clust
                             pl_genes = pl_genes,
                             p_mat = FALSE,
                             x_col = "cluster_sample", 
-                            meta_annot_cols = c("group", "cluster_name", "cell_type", "seq_tech", "sample_type"),
+                            meta_annot_cols = c("group", "cluster_name", "batch", "cell_line", 
+                                                "cell_type", "seq_tech", "sample_type"),
                             show_rownames = TRUE, show_colnames = FALSE,
                             cluster_rows = TRUE, cluster_cols = FALSE,
                             viridis(250),
@@ -1739,7 +1747,7 @@ t1 = NULL
 for (comp in names(bulk_data_in_vitro$deseq_results)){
   t2 = bulk_data_in_vitro$deseq_results[[comp]]
   t3 = t2[c("PKNOX1", "BACH1", "GABPA"),]
-  t4 = as_tibble(cbind(comp = comp, gene = rownames(t3), t3))
+  t4 = as_tibble(cbind(comp = comp, t3))
   t1 = rbind(t1, t4)
 }
 
